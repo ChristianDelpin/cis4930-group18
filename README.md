@@ -19,3 +19,13 @@
 3. 
 4. (Optional)
 5. (Optional)
+
+## File Structure Explanation
+
+- `data/raw/` - Any raw data will go in here, such as the original data source we intend to use, as well as any other raw data we may use.
+
+- `data/processed/` - Any *processed* data we want to save goes here.
+
+- `figures/` - Whenever we save an image (graph, or other visuals), we must store it in this location.
+
+- `src/` - Any code we write should be stored in this location.
