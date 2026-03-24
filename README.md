@@ -9,8 +9,8 @@
 | Name | ID |
 |------|----|
 | Christian Delpin | cad23j |
-| Luis Dominguez | lad24e
- | Leila Kouanda |Lk21h
+| Luis Dominguez | lad24e |
+| Leila Kouanda | Lk21h |
 | Your Name | Your ID |
 
 ## Research Questions
