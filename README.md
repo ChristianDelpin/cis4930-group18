@@ -14,7 +14,7 @@
 | Your Name | Your ID |
 
 ## Research Questions
-1. 
+1. How do sales of avocados fluctuate over the year?
 2. 
 3. 
 4. (Optional)
