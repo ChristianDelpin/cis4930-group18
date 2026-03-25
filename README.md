@@ -15,8 +15,8 @@
 
 ## Research Questions
 1. How do sales of avocados fluctuate over the year?
-2. 
-3. 
+2. Which regions have the highest prices?
+3. How do months make influence in change of prices?
 4. (Optional)
 5. (Optional)
 
