@@ -11,7 +11,6 @@
 | Christian Delpin | cad23j |
 | Luis Dominguez | lad24e |
 | Leila Kouanda | Lk21h |
-| Your Name | Your ID |
 
 ## Research Questions
 1. How do sales of avocados fluctuate over the year?
