@@ -1,6 +1,7 @@
-# Project Title
+# Avocado Sales: The world behind  
 
-2-3 sentences about how the data set applies to the real world.
+# Description 2-3 sentences about how the data set applies to the real world.
+This project of ours explores the real-world avocado sales data to show the price, volume and the demand for it across many states inside the US. Through the process of data cleaning, and a visual analysis, we will show the patterns that shape the avocado market. Our goal is to be able to tell a story about the sales of the avocado, and its world behind it.
 
 [Link to data source](https://www.kaggle.com/datasets/neuromusic/avocado-prices)
 
