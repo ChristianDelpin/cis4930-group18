@@ -14,10 +14,8 @@
 
 ## Research Questions
 1. How do sales of avocados fluctuate over the year?
-2. Which regions have the highest prices?
+2. Is there a correlation in sales between avocado PLU's?
 3. How do months make influence in change of prices?
-4. Is there a correlation in sales between avocado PLU's?
-5. (Optional)
 
 ## File Structure Explanation
 
