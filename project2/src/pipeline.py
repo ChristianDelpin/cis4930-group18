@@ -1,7 +1,7 @@
 import requests
 # import pandas as pd
 
-url = 'https://openlibrary.org/'
+url = 'https://openlibrary.org/search.json'
 
 endpoint = ''
 
@@ -17,11 +17,12 @@ headers = {  # TODO: Give proper name
 
 # Testing
 
-endpoint = 'isbn/'
-params = '9780544003415'
-fully_qualified_url = url+endpoint+params
 
-response = requests.get(fully_qualified_url, headers=headers)
+params = {
+    'isbn': '9780140328721'
+}
+
+response = requests.get(url, headers=headers, params=params)
 print(f"{response.status_code}\n\n{response}")
 
 d=response.json()
