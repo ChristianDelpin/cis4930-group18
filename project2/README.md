@@ -2,7 +2,9 @@
 
 Project Description
 
-Link to [API Documentation]()
+Link to [API Documentation](https://openlibrary.org/swagger/docs#/)
+
+Link to [Getting Started](https://openlibrary.org/developers/api)
 
 ## Members
 
@@ -10,6 +12,6 @@ Link to [API Documentation]()
 |------|----|
 | Christian Delpin | cad23j |
 | Luis Dominguez | lad24e |
-| Leila Kouanda | Lk21h |
+| Leila Kouanda | lk21h |
 
 ## Usage
