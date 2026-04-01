@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
-import sqlite3
-import json
+
+from helper_functions import save_as_sqlite
 
 
 url = 'https://openlibrary.org/'
@@ -31,14 +31,8 @@ print(data)
 df = pd.DataFrame([data])
 
 # Convert DataFrame object into a .SQLite file
-for col in df.columns:
-    if df[col].apply(lambda x: isinstance(x, (list, dict))).any():
-        df[col] = df[col].apply(lambda x: json.dumps(x) if isinstance(x, (list, dict)) else x)
-
-
-with sqlite3.connect("../data/raw/test.sqlite") as conn:
-    df.to_sql("testing_table", conn, if_exists="append",index=False)    
-
+    
+save_as_sqlite(DataFrame=df)
 
 # End Testing
 
