@@ -56,12 +56,18 @@ def process_currency(currency) -> bool:
         return False
 
 def get_all_currency_codes():
+    """Fetches all currency codes from the REST Countries API and saves them to a SQLite database."""
+
     try:
         url = "https://restcountries.com/v3.1/all"
         params = {"fields": "currencies"}
         response = requests.get(url, params=params)
         response.raise_for_status()
-
+        
+        if not response.status_code == 200:
+            log_error("get_all_currency_codes", f"Unexpected status code: {response.status_code}")
+            return
+        
         data = response.json()
         # Save raw data
         raw_df = pd.DataFrame(data)
@@ -92,6 +98,8 @@ def get_all_currency_codes():
         log_error("get_all_currency_codes", f"Request failed: {e}")
 
 def add_currency_to_countries():
+    """ Adds currency information to the countries table."""
+
     conn = sqlite3.connect(db_currency_processed)
     cursor = conn.cursor()
 
@@ -105,6 +113,11 @@ def add_currency_to_countries():
         try:
             response = requests.get(f"https://restcountries.com/v3.1/currency/{code}")
             response.raise_for_status()
+
+            if not response.status_code == 200:
+                log_error("add_currency_to_countries", f"Unexpected status code for currency {code}: {response.status_code}")
+                continue
+
             data = response.json()
             # Save raw data
             raw_df = pd.DataFrame(data)
@@ -134,10 +147,23 @@ def add_currency_to_countries():
     conn.close()
 
 def get_countries_by_currency(currency_code):
+    """    Fetches country data for a given currency code from the REST Countries API.
+        Parameters:
+            `currency_code`: Currency code to query. Example: "USD", "EUR"
+        
+        Returns:
+            `dict` or `None`: API response as a dictionary if successful, otherwise None.
+    """
+
     try:
         url = f"https://restcountries.com/v3.1/currency/{currency_code}"
         response = requests.get(url)
         response.raise_for_status()
+
+        if not response.status_code == 200:
+            log_error("get_countries_by_currency", f"Unexpected status code: {response.status_code}")
+            return None
+
         return response.json()
     except requests.exceptions.RequestException as e:
         log_error("get_countries_by_currency", f"Request failed: {e}")
