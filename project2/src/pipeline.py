@@ -1,34 +1,20 @@
-#from api_client import get_from_page, extract_the_records
-import requests
-# import pandas as pd
+from api_client import get_the_countries
+from api_client import extract_the_records
+from storage import save_the_records
+# ok had to delete a lot here cause of the change of api so here we gooo
+def run_the_pipeline():
+    print("[INFO] Getting the country data, wait a second")
+    data = get_the_countries()
 
-url = 'https://openlibrary.org/search.json'
-
-endpoint = ''
-
-params = ''
-
-# User-Agent is to identify ourselves, increasing our ratelimit from 1 r/s -> 3 r/s.
-# accept is to define the type of response we want to get, meaning `.json()` is not necessary.
-headers = {  # TODO: Give proper name
-    "User-Agent": "MyAppName/1.0 (cad23j@fsu.edu, lad24e@fsu.edu, lk21h@fsu.edu)",
-    "accept": "application/json"
-}
+    records = extract_the_records(data)
+    print("f[INFO] extracted the {len(records)} records.")
 
 
-# Testing
+    save_the_records(records)
+    print("[INFO] Pipeline has been completed good job!")
 
-
-params = {
-    'isbn': '9780140328721'
-}
-
-response = requests.get(url, headers=headers, params=params)
-print(f"{response.status_code}\n\n{response}")
-
-d=response.json()
-print(d)
-
-# End Testing
+if __name__ == "__main__":
+    run_the_pipeline()
+# Ending the testing, should be good.... hopefully
 
 
