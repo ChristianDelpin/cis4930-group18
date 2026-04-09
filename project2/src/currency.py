@@ -4,7 +4,7 @@ import sqlite3
 import json
 from collections import defaultdict
 
-from helper_functions import save_as_sqlite
+from helper_functions import log_error, save_as_sqlite
 
 # Raw DB
 db_country_raw = "project2/data/raw/countries.db"
@@ -33,7 +33,7 @@ def process_currency(currency) -> bool:
     """
     response = get_countries_by_currency(currency)
     if not response:
-        print("Failed to retrieve data from API.")
+        log_error("process_currency", "Failed to retrieve data from API.")
         return False
     
     try:
@@ -52,7 +52,7 @@ def process_currency(currency) -> bool:
         
         return True
     except Exception as e:
-        print(f"Error occurred while processing currency {currency}: {e}")
+        log_error("process_currency", f"Error occurred while processing currency {currency}: {e}")
         return False
 
 def get_all_currency_codes():
@@ -89,7 +89,7 @@ def get_all_currency_codes():
             df.to_sql(table_currency_list, conn, if_exists="append", index=False)
 
     except requests.exceptions.RequestException as e:
-        print(f"[get_all_currency_codes()] Request failed: {e}")
+        log_error("get_all_currency_codes", f"Request failed: {e}")
 
 def add_currency_to_countries():
     conn = sqlite3.connect(db_currency_processed)
@@ -115,10 +115,10 @@ def add_currency_to_countries():
                 cca2 = country['cca2']
                 country_to_currencies[cca2].append(code)
         except requests.exceptions.Timeout as e:
-            print(f"Request timed out for currency {code}: {e}")
+            log_error("add_currency_to_countries", f"Request timed out for currency {code}: {e}")
         
         except requests.exceptions.RequestException as e:
-            print(f"Failed to fetch data for currency {code}: {e}")
+            log_error("add_currency_to_countries", f"Failed to fetch data for currency {code}: {e}")
 
     # Create the table
     cursor.execute(f"DROP TABLE IF EXISTS {table_country_currencies}")
@@ -140,5 +140,5 @@ def get_countries_by_currency(currency_code):
         response.raise_for_status()
         return response.json()
     except requests.exceptions.RequestException as e:
-        print(f"[get_countries_by_currency()] Request failed: {e}")
+        log_error("get_countries_by_currency", f"Request failed: {e}")
         return None

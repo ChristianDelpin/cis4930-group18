@@ -1,5 +1,9 @@
+import datetime
 import json
+import os
 import sqlite3
+
+from datetime import datetime
 
 def save_as_sqlite(DataFrame, path, table_name, if_exists="append", index=False) -> bool:
     """Save a pandas DataFrame to SQLite, creating the table if necessary.
@@ -33,14 +37,14 @@ def save_as_sqlite(DataFrame, path, table_name, if_exists="append", index=False)
             # If table doesn't exist, create it
             if not table_exists:
                 DataFrame.to_sql(table_name, conn, if_exists="replace", index=index)
-                print(f"Created table {table_name} and saved DataFrame")
+                log("save_as_sqlite", f"Table '{table_name}' created and DataFrame saved successfully.")
             else:
                 DataFrame.to_sql(table_name, conn, if_exists=if_exists, index=index)
-                print("DataFrame saved into SQLite database successfully")
+                log("save_as_sqlite", f"DataFrame saved into SQLite database successfully.")
 
             return True
     except Exception as e:
-        print(f"[save_as_sqlite()] Saving failed: {e}")
+        log_error("save_as_sqlite", f"Failed to save DataFrame: {e}")
         return False
 
 def setup_currency_databases():
@@ -52,3 +56,32 @@ def setup_currency_databases():
     from currency import get_all_currency_codes, add_currency_to_countries
     get_all_currency_codes()
     add_currency_to_countries()
+
+def log(function_name, message):
+    """Logs successful operations.
+    
+    Parameters:
+        function_name: The name of the function where the success occurred.
+        message: The success message.
+    """
+    log_file_path = os.path.join(os.path.dirname(__file__), '..', 'logs', 'success.log')
+    
+    mode = 'a' if os.path.exists(log_file_path) else 'w'
+    
+    with open(log_file_path, mode) as f:
+        f.write(f"{datetime.now()}  {function_name}: {message}\n")
+
+def log_error(function_name, error_message):
+    """Logs errors.
+    
+    Parameters:
+        function_name: The name of the function where the error occurred.
+        error_message: The error message.
+    """
+    log_file_path = os.path.join(os.path.dirname(__file__), '..', 'logs', 'errors.log')
+    
+    mode = 'a' if os.path.exists(log_file_path) else 'w'
+    
+    with open(log_file_path, mode) as f:
+        f.write(f"{datetime.now()}  {function_name}: {error_message}\n")
+    
