@@ -2,9 +2,7 @@
 
 Project Description
 
-Link to [API Documentation](https://openlibrary.org/swagger/docs#/)
-
-Link to [Getting Started](https://openlibrary.org/developers/api)
+Link to [API Documentation](https://restcountries.com/)
 
 ## Members
 
