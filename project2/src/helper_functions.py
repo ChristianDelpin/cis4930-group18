@@ -2,11 +2,15 @@ import datetime
 import json
 import os
 import sqlite3
+import requests
+import pandas as pd
 
 from datetime import datetime
 
-from project2.src.api_client import extract_the_records, get_the_countries
-from project2.src.storage import save_the_records
+#from storage import save_the_records
+
+BASE_URL = "https://restcountries.com/v3.1/"
+OUTPUT_PATH = "data/processed/countries_data.csv"
 
 def save_as_sqlite(DataFrame, path, table_name, if_exists="append", index=False) -> bool:
     """Save a pandas DataFrame to SQLite, creating the table if necessary.
@@ -88,19 +92,89 @@ def log_error(function_name, error_message):
     with open(log_file_path, mode) as f:
         f.write(f"{datetime.now()}  {function_name}: {error_message}\n")
 
-def run_the_pipeline():
+def get_the_countries():
+#hmmm i forgot something here, i forgot the status-code check.... oops
+    log("get_the_countries", "Starting the process of getting countries API")   
+    try: 
+        resp = requests.get(f"{BASE_URL}all", timeout=10)
+        if resp.status_code == 200:
+            log("get_the_countries", "Status code 200 is doing great")
+        else:
+            log_error("get_the_countries", f"there was an error with the status code: {resp.status_code}")
+
+        resp.raise_for_status()
+        data = resp.json()
+        
+        log("get_the_countries", f"Succesfully gotten the {len(data)} records")
+        return data
+    
+    except requests.exceptions.Timeout:
+        log_error("get_the_countries", "There has been a timeout.")
+        return None
+    except requests.exceptions.RequestException as e:
+        log_error("get_the_countries", f"Request could not be made: {e}")
+        return None
+
+def extract_the_records(data):
+    log("extract_the_records", "extracting the records!!")
+    if not data:
+        log_error("extract_the_records", "there is no data..")
+        return []
+    records = []
+    for item in data:
+        record = {
+            "name": item.get("name", {}).get("common"),
+            "region": item.get("region"),
+            "population": item.get("population"),
+            "area": item.get("area"),
+            "languages": ", ".join(item.get("languages", {}).values()),
+            "country_code": item.get("country_code")
+#yayyyy i managed to change everything (didnt take that long but still)
+        }
+        records.append(record)
+    log("extract_the_records", f"records {len(records)} have been extracted, good job!")
+    return records
+
+def directories_ensured():
+    #makes sure that directories are there and if not then well creates them
+    os.makedirs("data/processed", exist_ok=True)
+
+
+def save_the_records(records):
+    directories_ensured()
+
+    df= pd.DataFrame(records)
+
+    #ok almost done with this, now we append if the file exist (it should...) and if not it creates it so we make sure everything is ok
+    #and im gonna add an error if it does not work then a log_error indicating that
+    try:
+        if os.path.exists(OUTPUT_PATH):
+            df.to_csv(OUTPUT_PATH, mode="a", header=False, index=False)
+            log("save_the_records", "Appended {len(records)} rows to the existing csv, congrats.") # TODO: Change to use logging
+        else:
+            df.to_csv(OUTPUT_PATH, index=False)
+            log("save_the_records", "Creating new csv with {len(records)} rows, good job.") # TODO: Change to use logging
+    
+    except Exception as e:
+        log_error("save_the_records", f"Failed to save the records provided, I'm sorry: {e}")
+        #ok, this should do it 
+
+
+
+
+def run_pipeline():
     """ Executes the entire data pipeline.
     """
 # Luis' code for the pipeline
-    log("run_the_pipeline", "Getting the country data, wait a second") # TODO: Change to use logging
+    log("run_the_pipeline", "Getting the country data, wait a second")
     data = get_the_countries()
 
     records = extract_the_records(data)
-    log("run_the_pipeline", "extracted the {len(records)} records.") # TODO: Change to use logging
+    log("run_the_pipeline", "extracted the {len(records)} records.") 
 
 
     save_the_records(records)
-    log("run_the_pipeline", "Pipeline has been completed good job!") # TODO: Change to use logging
+    log("run_the_pipeline", "Pipeline has been completed good job!") 
 
 # Chris' code for the pipeline
     setup_currency_databases()

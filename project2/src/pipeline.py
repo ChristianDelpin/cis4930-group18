@@ -1,7 +1,7 @@
-from helper_functions import run_the_pipeline
+from helper_functions import run_pipeline
 
 def main():
-    run_the_pipeline()
+    run_pipeline()
     
 if __name__ == "__main__":    
     main()
