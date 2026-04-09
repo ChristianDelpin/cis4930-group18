@@ -5,6 +5,9 @@ import sqlite3
 
 from datetime import datetime
 
+from project2.src.api_client import extract_the_records, get_the_countries
+from project2.src.storage import save_the_records
+
 def save_as_sqlite(DataFrame, path, table_name, if_exists="append", index=False) -> bool:
     """Save a pandas DataFrame to SQLite, creating the table if necessary.
 
@@ -84,4 +87,22 @@ def log_error(function_name, error_message):
     
     with open(log_file_path, mode) as f:
         f.write(f"{datetime.now()}  {function_name}: {error_message}\n")
-    
+
+def run_the_pipeline():
+    """ Executes the entire data pipeline.
+    """
+# Luis' code for the pipeline
+    print("[INFO] Getting the country data, wait a second") # TODO: Change to use logging
+    data = get_the_countries()
+
+    records = extract_the_records(data)
+    print("f[INFO] extracted the {len(records)} records.") # TODO: Change to use logging
+
+
+    save_the_records(records)
+    print("[INFO] Pipeline has been completed good job!") # TODO: Change to use logging
+
+# Chris' code for the pipeline
+    setup_currency_databases()
+
+# Leila's code for the pipeline

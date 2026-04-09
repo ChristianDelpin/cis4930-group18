@@ -2,43 +2,36 @@
 import requests
 import time
 
-BASE_URL = "https://openlibrary.org/search.json"
+BASE_URL = "https://restcountries.com/v3.1/all"
 #first part of the help module
-def get_from_page(query, page):
-    params = {
-        "q": query,
-        "page": page
-    }
+def get_the_countries():
 
     try: 
-        resp = requests.get(BASE_URL, params=params, timeout=10)
+        resp = requests.get(BASE_URL, timeout=10)
         resp.raise_for_status()
-        data = resp.json()
-        return data
+        return resp.json()
     except requests.exceptions.Timeout:
-        print(f"[ERROR] Timeout has happened on the page {page}, skipping the page.")
+        print(f"[ERROR] There has been a timeout.")
         return None
     except requests.exceptions.RequestException as a:
-        print(f"[ERROR] Request could not be made on page {page}: {a}")
-
+        print(f"[ERROR] Request could not be made:", a)
+        return None
 #ok so that was the first function and... not bad
 #now for the extract records of the module
-
+#ok so because we changed.... i also have to change all this..... aaaaaaa
 def extract_the_records(data):
-    if not data or "docs" not in data:
+    if not data:
         return []
-    
     records = []
-    for item in data["docs"]:
+    for item in data:
         record = {
-            "Title": item.get("Title"),
-            "Author": ", ".join(item.get("author_name", [])),
-            "first_published_year": item.get("first_published_year"),
-            "isbn": ", ".join(item.get("isbn", [])[:5]),
-            "language": ", ".join(item.get("language", [])[:5]),
-            "subject": ", ".join(item.get("subject", [])[:5]),
-            "edition_count": item.get("edition_count")
-
+            "Name": item.get("Name", {}).get("common"),
+            "Region": item.get("Region"),
+            "Population": item.get("Population"),
+            "Area": item.get("Area"),
+            "languages": ", ".join(item.get("languages", {}).values()),
+            "country_code": item.get("country_code")
+#yayyyy i managed to change everything (didnt take that long but still)
         }
         records.append(record)
     return records

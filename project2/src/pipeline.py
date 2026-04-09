@@ -1,7 +1,7 @@
-import sqlite3
-from helper_functions import setup_currency_databases
+from helper_functions import run_the_pipeline
+
 def main():
-    setup_currency_databases()
+    run_the_pipeline()
     
 if __name__ == "__main__":    
     main()
