@@ -124,11 +124,15 @@ def extract_the_records(data):
     for item in data:
         record = {
             "name": item.get("name", {}).get("common"),
+            "official_name": item.get("name", {}).get("official"),
             "region": item.get("region"),
+            "subregion": item.get("subregion"),
             "population": item.get("population"),
-            "area": item.get("area"),
+            "capital": ", ".join(item.get("capital", [])),
             "languages": ", ".join(item.get("languages", {}).values()),
-            "country_code": item.get("country_code")
+            "area": item.get("area"),
+            "country_code": item.get("cca2"),
+            "flag_url": item.get("flags", {}).get("png")
 #yayyyy i managed to change everything (didnt take that long but still)
         }
         records.append(record)
@@ -150,10 +154,10 @@ def save_the_records(records):
     try:
         if os.path.exists(OUTPUT_PATH):
             df.to_csv(OUTPUT_PATH, mode="a", header=False, index=False)
-            log("save_the_records", "Appended {len(records)} rows to the existing csv, congrats.") # TODO: Change to use logging
+            log("save_the_records", f"Appended {len(records)} rows to the existing csv, congrats.") # TODO: Change to use logging
         else:
             df.to_csv(OUTPUT_PATH, index=False)
-            log("save_the_records", "Creating new csv with {len(records)} rows, good job.") # TODO: Change to use logging
+            log("save_the_records", f"Creating new csv with {len(records)} rows, good job.") # TODO: Change to use logging
     
     except Exception as e:
         log_error("save_the_records", f"Failed to save the records provided, I'm sorry: {e}")
@@ -170,7 +174,7 @@ def run_pipeline():
     data = get_the_countries()
 
     records = extract_the_records(data)
-    log("run_the_pipeline", "extracted the {len(records)} records.") 
+    log("run_the_pipeline", f"extracted the {len(records)} records.") 
 
 
     save_the_records(records)
