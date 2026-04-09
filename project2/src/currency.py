@@ -114,6 +114,9 @@ def add_currency_to_countries():
             for country in data:
                 cca2 = country['cca2']
                 country_to_currencies[cca2].append(code)
+        except requests.exceptions.Timeout as e:
+            print(f"Request timed out for currency {code}: {e}")
+        
         except requests.exceptions.RequestException as e:
             print(f"Failed to fetch data for currency {code}: {e}")
 
