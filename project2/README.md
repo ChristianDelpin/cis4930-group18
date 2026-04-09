@@ -16,8 +16,26 @@ Link to [API Documentation](https://restcountries.com/)
 
 - Fetch all countries data from REST Countries API.
 - Extract key fields: name, capital, region, population, area.
-- Accumulate results into a single CSV, adding a new row per run with timestamp.
+- Accumulate results into a single CSV, adding a new batch per run with timestamp.
 - Handle failures gracefully and log errors.
+- **Pagination**: Each run fetches a batch of 50 different countries by tracking an offset in `data/processed/offset.txt`.
+
+## How Pagination Works
+
+The pipeline simulates pagination by:
+1. Reading the current offset from `data/processed/offset.txt`
+2. Fetching a batch of 50 countries starting from that offset
+3. Saving the batch to CSV with the next offset value
+
+**Example of offset progression across runs:**
+```
+Run 1: Offset 0→50   (fetches countries 0-49)
+Run 2: Offset 50→100 (fetches countries 50-99)
+Run 3: Offset 100→150 (fetches countries 100-149)
+Run 4: Offset 150→200 (fetches countries 150-199)
+```
+
+Each run appends different countries to `data/processed/countries.csv`, NOT just different timestamps.
 
 ## Usage
 
@@ -30,6 +48,19 @@ Run the pipeline:
 ```
 python src/pipeline.py
 ```
+
+Or use the shell script:
+```
+./run_pipeline.sh
+```
+
+## Data Accumulation
+
+- **CSV Output**: `data/processed/countries.csv` - Accumulates rows across multiple runs
+- **Offset Tracking**: `data/processed/offset.txt` - Tracks which batch to fetch next
+- **Logs**: `logs/pipeline.log` - Records all pipeline executions and errors
+
+Each run adds 50 different countries (not duplicates), with each row timestamped in `fetched_at` column.
 
 ## Automation
 
