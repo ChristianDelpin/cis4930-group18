@@ -1,7 +1,7 @@
 #Time to do the client py as a helper module (hopefully i make it work...)
 import requests
 import time
-
+from helper_functions import log, log_error 
 BASE_URL = "https://restcountries.com/v3.1/all"
 #first part of the help module
 def get_the_countries():
@@ -11,10 +11,10 @@ def get_the_countries():
         resp.raise_for_status()
         return resp.json()
     except requests.exceptions.Timeout:
-        print(f"[ERROR] There has been a timeout.")
+        log_error("get_the_countries", "There has been a timeout.")
         return None
     except requests.exceptions.RequestException as a:
-        print(f"[ERROR] Request could not be made:", a)
+        log_error("get_the_countries", "Request could not be made:", a)
         return None
 #ok so that was the first function and... not bad
 #now for the extract records of the module

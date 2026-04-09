@@ -92,15 +92,15 @@ def run_the_pipeline():
     """ Executes the entire data pipeline.
     """
 # Luis' code for the pipeline
-    print("[INFO] Getting the country data, wait a second") # TODO: Change to use logging
+    log("run_the_pipeline", "Getting the country data, wait a second") # TODO: Change to use logging
     data = get_the_countries()
 
     records = extract_the_records(data)
-    print("f[INFO] extracted the {len(records)} records.") # TODO: Change to use logging
+    log("run_the_pipeline", "extracted the {len(records)} records.") # TODO: Change to use logging
 
 
     save_the_records(records)
-    print("[INFO] Pipeline has been completed good job!") # TODO: Change to use logging
+    log("run_the_pipeline", "Pipeline has been completed good job!") # TODO: Change to use logging
 
 # Chris' code for the pipeline
     setup_currency_databases()
