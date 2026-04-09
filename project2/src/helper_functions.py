@@ -1,16 +1,54 @@
 import json
 import sqlite3
 
-def save_as_sqlite(DataFrame):
+def save_as_sqlite(DataFrame, path, table_name, if_exists="append", index=False) -> bool:
+    """Save a pandas DataFrame to SQLite, creating the table if necessary.
+
+    Checks if the table exists; if not, creates it using the DataFrame schema.
+    Then appends or replaces the data based on if_exists parameter.
+
+    Args:
+        DataFrame: pandas DataFrame to save.
+        path: path to the SQLite database file.
+        table_name: table name to save to.
+        if_exists: behavior if table exists (default: "append").
+        index: whether to write DataFrame index as a column.
+
+    Returns:
+        bool: whether saving was successful.
+    """
     try:
         for col in DataFrame.columns:
             if DataFrame[col].apply(lambda x: isinstance(x, (list, dict))).any():
                 DataFrame[col] = DataFrame[col].apply(lambda x: json.dumps(x) if isinstance(x, (list, dict)) else x)
 
-        with sqlite3.connect("data/raw/test.sqlite") as conn:
-            DataFrame.to_sql("testing_table", conn, if_exists="append",index=False)
-            print("DataFrame saved into SQLite database successfully")
+        with sqlite3.connect(path) as conn:
+            cursor = conn.cursor()
+            cursor.execute(
+                "SELECT name FROM sqlite_master WHERE type='table' AND name=?;",
+                (table_name,)
+            )
+            table_exists = cursor.fetchone() is not None
+
+            # If table doesn't exist, create it
+            if not table_exists:
+                DataFrame.to_sql(table_name, conn, if_exists="replace", index=index)
+                print(f"Created table {table_name} and saved DataFrame")
+            else:
+                DataFrame.to_sql(table_name, conn, if_exists=if_exists, index=index)
+                print("DataFrame saved into SQLite database successfully")
+
             return True
     except Exception as e:
         print(f"[save_as_sqlite()] Saving failed: {e}")
         return False
+
+def setup_currency_databases():
+    """Helper function to create and populate the currency databases.
+    
+    Calls the necessary functions to fetch currency data and build the
+    countries-by-currency table in the processed currencies database.
+    """
+    from currency import get_all_currency_codes, add_currency_to_countries
+    get_all_currency_codes()
+    add_currency_to_countries()
