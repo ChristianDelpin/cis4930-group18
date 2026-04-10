@@ -74,6 +74,14 @@ def setup_language_databases():
     get_all_language_codes()
     add_language_to_countries()
 
+def setup_weather_databases():
+    """Helper function to create and populate the weather databases.
+    
+    Calls the necessary functions to fetch weather data for capitals.
+    """
+    from weather import get_weather_for_capitals
+    get_weather_for_capitals()
+
 def log(function_name, message):
     """Logs successful operations.
     
@@ -196,3 +204,4 @@ def run_pipeline():
 
 # Leila's code for the pipeline
     setup_language_databases()
+    setup_weather_databases()

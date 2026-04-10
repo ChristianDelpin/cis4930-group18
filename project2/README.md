@@ -1,8 +1,8 @@
-# Project 2: Automated Data Pipeline for Countries Data
+# Project 2: Automated Data Pipeline for Countries Data with Currencies, Languages, and Weather
 
-This project fetches data from the REST Countries API and stores it in CSV format. Each run accumulates more data with timestamps.
+This project fetches data from multiple APIs (REST Countries, Open-Meteo) to collect countries data, currencies, languages, and current weather for capitals, storing results in CSV and SQLite formats. Each run accumulates data and combines related information for analysis.
 
-Link to [API Documentation](https://restcountries.com/https://restcountries.com/)
+Link to [API Documentation](https://restcountries.com/) | [Open-Meteo API](https://open-meteo.com/)
 
 ## Members
 
@@ -15,11 +15,14 @@ Link to [API Documentation](https://restcountries.com/https://restcountries.com/
 ## Data Pipeline Goals
 
 - Create a database structure that promotes smooth data processing by making tables with only the relevant information
-- Provide information on what countries use what currencies
+- Provide information on what countries use what currencies and speak what languages
+- Fetch current weather data for country capitals using Open-Meteo API
+- Combine weather data with country information for enriched analysis
 - Fetch all countries data from REST Countries API.
 - Extract key fields: name, capital, region, population, area.
 - Accumulate results into a single CSV, adding a new batch per run with timestamp.
 - Handle failures gracefully and log errors.
+- Combine data from multiple API endpoints (currencies and languages) to enrich country information.
 - **Pagination**: Each run fetches a batch of 50 different countries by tracking an offset in `data/processed/offset.txt`.
 
 ## How Pagination Works
@@ -41,9 +44,34 @@ Each run appends different countries to `data/processed/countries.csv`, NOT just
 
 ### Relevancy & Constraints
 
-This API is relevant to real-world transactions by containing a wealth of information. Some included information is the countries' accepted financnial currencies that can allow individuals or businesses to understand what kind of payment they should be able to accept from their customers or clients, allowing people to be more informed on how to reach as wide of a clientele as reasonably possible. 
+This API is relevant to real-world transactions by containing a wealth of information. Some included information is the countries' accepted financial currencies that can allow individuals or businesses to understand what kind of payment they should be able to accept from their customers or clients, allowing people to be more informed on how to reach as wide of a clientele as reasonably possible. 
+
+## Database Schema
+
+The project uses SQLite databases for structured storage:
+
+- **Raw Data (`data/raw/countries.db`)**:
+  - `all_countries`: Raw JSON dumps from /v3.1/all
+  - `currency_countries`: Raw data per currency from /v3.1/currency/{code}
+  - `language_countries`: Raw data per language from /v3.1/lang/{code}
+
+- **Processed Data**:
+  - `currencies.db`:
+    - `currency_list`: (code TEXT PRIMARY KEY, name TEXT, symbol TEXT)
+    - `countries_by_currency`: (cca2 TEXT PRIMARY KEY, currencies TEXT) - JSON list of currency codes
+  - `languages.db`:
+    - `language_list`: (code TEXT PRIMARY KEY, name TEXT, nativeName TEXT)
+    - `countries_by_language`: (cca2 TEXT PRIMARY KEY, languages TEXT) - JSON list of language codes
+- `weather.db`:
+    - `weather_data`: (country TEXT, capital TEXT, latitude REAL, longitude REAL, temperature REAL, windspeed REAL, winddirection REAL, weathercode INTEGER, fetched_at TEXT)
+  - `countries.db`: Additional processed country data if needed
 
 ## Usage
+
+**Important**: Before running the pipeline for the first time or to reset the data, delete the existing database files to start fresh:
+```
+rm -f data/raw/countries.db data/processed/currencies.db data/processed/languages.db
+```
 
 Install dependencies:
 ```
@@ -63,10 +91,20 @@ Or use the shell script:
 ## Data Accumulation
 
 - **CSV Output**: `data/processed/countries.csv` - Accumulates rows across multiple runs
+- **SQLite Databases**: 
+  - `data/processed/currencies.db` - Currency lists and country-currency mappings
+  - `data/processed/languages.db` - Language lists and country-language mappings
+  - `data/processed/weather.db` - Current weather data for capitals
+  - `data/raw/countries.db` - Raw API responses for auditing
 - **Offset Tracking**: `data/processed/offset.txt` - Tracks which batch to fetch next
-- **Logs**: `logs/pipeline.log` - Records all pipeline executions and errors
+- **Logs**: `logs/success.log` and `logs/errors.log` - Records all pipeline executions and errors
 
-Each run adds 50 different countries (not duplicates), with each row timestamped in `fetched_at` column.
+Each run adds 50 different countries (not duplicates), with each row timestamped in `fetched_at` column. SQLite tables accumulate mappings for currencies and languages.
+
+## Bonus Features
+
+- **Combined APIs**: Integrated weather data from Open-Meteo API with country information for comprehensive analysis.
+- **Multiple Data Sources**: Data from REST Countries (countries, currencies, languages) and Open-Meteo (weather) are combined in the pipeline.
 
 ## Automation
 
