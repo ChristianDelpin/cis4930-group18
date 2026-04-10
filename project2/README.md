@@ -14,6 +14,8 @@ Link to [API Documentation](https://restcountries.com/https://restcountries.com/
 
 ## Data Pipeline Goals
 
+- Create a database structure that promotes smooth data processing by making tables with only the relevant information
+- Provide information on what countries use what currencies
 - Fetch all countries data from REST Countries API.
 - Extract key fields: name, capital, region, population, area.
 - Accumulate results into a single CSV, adding a new batch per run with timestamp.
@@ -37,16 +39,11 @@ Run 4: Offset 150→200 (fetches countries 150-199)
 
 Each run appends different countries to `data/processed/countries.csv`, NOT just different timestamps.
 
-## Usage
-
-## Data Pipeline Goals
-
-- Create a database structure that promotes smooth data processing by making tables with only the relevant information
-- Provide information on what countries use what currencies
-
-## Relevancy & Constraints
+### Relevancy & Constraints
 
 This API is relevant to real-world transactions by containing a wealth of information. Some included information is the countries' accepted financnial currencies that can allow individuals or businesses to understand what kind of payment they should be able to accept from their customers or clients, allowing people to be more informed on how to reach as wide of a clientele as reasonably possible. 
+
+## Usage
 
 Install dependencies:
 ```
