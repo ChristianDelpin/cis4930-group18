@@ -27,7 +27,7 @@ def get_all_language_codes():
         response.raise_for_status()
         
         if not response.status_code == 200:
-            log_error("get_all_language_codes", f"Unexpected status code: {response.status_code}")
+            log_error("get_all_language_codes", f"API request failed with status code: {response.status_code}")
             return
         
         data = response.json()
@@ -83,7 +83,7 @@ def add_language_to_countries():
             response.raise_for_status()
 
             if not response.status_code == 200:
-                log_error("add_language_to_countries", f"Unexpected status code for language {code}: {response.status_code}")
+                log_error("add_language_to_countries", f"API request for language {code} failed with status code: {response.status_code}")
                 continue
 
             data = response.json()
@@ -96,10 +96,10 @@ def add_language_to_countries():
                 cca2 = country['cca2']
                 country_to_languages[cca2].append(code)
         except requests.exceptions.Timeout as e:
-            log_error("add_language_to_countries", f"Request timed out for language {code}: {e}")
+            log_error("add_language_to_countries", f"API request timed out for language {code}")
         
         except requests.exceptions.RequestException as e:
-            log_error("add_language_to_countries", f"Failed to fetch data for language {code}: {e}")
+            log_error("add_language_to_countries", f"API request failed for language {code}: {e}")
 
     # Create the table
     cursor.execute(f"DROP TABLE IF EXISTS {table_country_languages}")
@@ -129,7 +129,7 @@ def get_countries_by_language(language_code):
         response.raise_for_status()
 
         if not response.status_code == 200:
-            log_error("get_countries_by_language", f"Unexpected status code: {response.status_code}")
+            log_error("get_countries_by_language", f"API request failed with status code: {response.status_code}")
             return None
 
         return response.json()

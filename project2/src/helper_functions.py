@@ -44,10 +44,10 @@ def save_as_sqlite(DataFrame, path, table_name, if_exists="append", index=False)
             # If table doesn't exist, create it
             if not table_exists:
                 DataFrame.to_sql(table_name, conn, if_exists="replace", index=index)
-                log("save_as_sqlite", f"Table '{table_name}' created and DataFrame saved successfully.")
+                log("save_as_sqlite", f"Created new table '{table_name}' and saved {len(DataFrame)} records")
             else:
                 DataFrame.to_sql(table_name, conn, if_exists=if_exists, index=index)
-                log("save_as_sqlite", f"DataFrame saved into SQLite database successfully.")
+                log("save_as_sqlite", f"Saved {len(DataFrame)} records to existing table '{table_name}'")
 
             return True
     except Exception as e:
@@ -111,21 +111,21 @@ def get_the_countries():
     try: 
         resp = requests.get(f"{BASE_URL}all", timeout=10, params=params)
         if resp.status_code == 200:
-            log("get_the_countries", "Status code 200 is doing great")
+            log("get_the_countries", "API request successful with status 200")
         else:
-            log_error("get_the_countries", f"there was an error with the status code: {resp.status_code}")
+            log_error("get_the_countries", f"API request failed with status code: {resp.status_code}")
 
         resp.raise_for_status()
         data = resp.json()
         
-        log("get_the_countries", f"Succesfully gotten the {len(data)} records")
+        log("get_the_countries", f"Successfully retrieved {len(data)} country records from API")
         return data
     
     except requests.exceptions.Timeout:
-        log_error("get_the_countries", "There has been a timeout.")
+        log_error("get_the_countries", "API request timed out after 10 seconds")
         return None
     except requests.exceptions.RequestException as e:
-        log_error("get_the_countries", f"Request could not be made: {e}")
+        log_error("get_the_countries", f"API request failed: {e}")
         return None
 
 def extract_the_records(data):
@@ -167,14 +167,13 @@ def save_the_records(records):
     try:
         if os.path.exists(OUTPUT_PATH):
             df.to_csv(OUTPUT_PATH, mode="a", header=False, index=False)
-            log("save_the_records", f"Appended {len(records)} rows to the existing csv, congrats.") # TODO: Change to use logging
+            log("save_the_records", f"Appended {len(records)} new country records to existing CSV file")
         else:
             df.to_csv(OUTPUT_PATH, index=False)
-            log("save_the_records", f"Creating new csv with {len(records)} rows, good job.") # TODO: Change to use logging
+            log("save_the_records", f"Created new CSV file with {len(records)} country records")
     
     except Exception as e:
-        log_error("save_the_records", f"Failed to save the records provided, I'm sorry: {e}")
-        #ok, this should do it 
+        log_error("save_the_records", f"Failed to save country records to CSV: {e}") 
 
 
 
@@ -183,15 +182,14 @@ def run_pipeline():
     """ Executes the entire data pipeline.
     """
 # Luis' code for the pipeline
-    log("run_the_pipeline", "Getting the country data, wait a second")
+    log("run_the_pipeline", "Starting to fetch country data from REST Countries API")
     data = get_the_countries()
 
     records = extract_the_records(data)
-    log("run_the_pipeline", f"extracted the {len(records)} records.") 
-
+    log("run_the_pipeline", f"Successfully extracted {len(records)} country records from API response")
 
     save_the_records(records)
-    log("run_the_pipeline", "Pipeline has been completed good job!") 
+    log("run_the_pipeline", "Country data processing completed successfully")
 
 # Chris' code for the pipeline
     setup_currency_databases()

@@ -27,7 +27,7 @@ def get_all_currency_codes():
         response.raise_for_status()
         
         if not response.status_code == 200:
-            log_error("get_all_currency_codes", f"Unexpected status code: {response.status_code}")
+            log_error("get_all_currency_codes", f"API request failed with status code: {response.status_code}")
             return
         
         data = response.json()
@@ -77,7 +77,7 @@ def add_currency_to_countries():
             response.raise_for_status()
 
             if not response.status_code == 200:
-                log_error("add_currency_to_countries", f"Unexpected status code for currency {code}: {response.status_code}")
+                log_error("add_currency_to_countries", f"API request for currency {code} failed with status code: {response.status_code}")
                 continue
 
             data = response.json()
@@ -90,10 +90,10 @@ def add_currency_to_countries():
                 cca2 = country['cca2']
                 country_to_currencies[cca2].append(code)
         except requests.exceptions.Timeout as e:
-            log_error("add_currency_to_countries", f"Request timed out for currency {code}: {e}")
+            log_error("add_currency_to_countries", f"API request timed out for currency {code}")
         
         except requests.exceptions.RequestException as e:
-            log_error("add_currency_to_countries", f"Failed to fetch data for currency {code}: {e}")
+            log_error("add_currency_to_countries", f"API request failed for currency {code}: {e}")
 
     # Create the table
     cursor.execute(f"DROP TABLE IF EXISTS {table_country_currencies}")
