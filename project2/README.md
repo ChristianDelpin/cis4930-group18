@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 Run the pipeline:
 ```
-python src/pipeline.py
+python project2/src/pipeline.py
 ```
 
 Or use the shell script:
