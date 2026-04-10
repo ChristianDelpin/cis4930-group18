@@ -4,7 +4,7 @@ import sqlite3
 import json
 from collections import defaultdict
 
-from helper_functions import log_error, save_as_sqlite
+from helper_functions import log, log_error, save_as_sqlite
 
 # Raw DB
 db_country_raw = "project2/data/raw/countries.db"
@@ -16,44 +16,6 @@ db_country_processed = "project2/data/processed/countries.db"
 # Tables
 table_country_currencies = "countries_by_currency"
 table_currency_list = "currency_list"
-
-
-
-def process_currency(currency) -> bool:
-    """Process individual currency data by fetching, transforming, and saving to a SQLite database.
-    
-    Retrieves country data for a given currency code, saves the raw data,
-    then creates and saves a processed summary.
-    
-    Parameters:
-        `currency`: Currency code to process. Example: "USD", "EUR"
-    
-    Returns:
-        `bool`: Whether processing was successful.
-    """
-    response = get_countries_by_currency(currency)
-    if not response:
-        log_error("process_currency", "Failed to retrieve data from API.")
-        return False
-    
-    try:
-        raw_df = pd.DataFrame(response)
-        
-        # Save raw data (creates table if needed)
-        save_as_sqlite(raw_df, db_country_raw, table_country_currencies)
-        
-        # Process and save summary (creates table if needed)
-        processed_df = pd.DataFrame({
-            "country_code": raw_df["cca2"],
-            "common_name": raw_df["name"].apply(lambda x: x["common"]),
-            "currencies": raw_df["currencies"].apply(lambda x: list(x.keys())[0] if isinstance(x, dict) else None)
-        })
-        save_as_sqlite(processed_df, db_country_processed, table_country_currencies)
-        
-        return True
-    except Exception as e:
-        log_error("process_currency", f"Error occurred while processing currency {currency}: {e}")
-        return False
 
 def get_all_currency_codes():
     """Fetches all currency codes from the REST Countries API and saves them to a SQLite database."""
@@ -83,7 +45,7 @@ def get_all_currency_codes():
                     "name": info["name"],
                     "symbol": info["symbol"]
                 })
-
+    
         df = pd.DataFrame(rows)
         df = df.drop_duplicates(subset=["code"], keep="first").reset_index(drop=True)
 
