@@ -4,7 +4,7 @@
 
 To run the pipeline:
 ```
-python src/pipeline.py
+python project2/src/pipeline.py
 ```
 
 Or using the shell script:
