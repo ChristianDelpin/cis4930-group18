@@ -99,7 +99,7 @@ def get_the_countries():
         "fields": "name,region,subregion,population,capital,languages,area,cca2,flags"
     }
     try: 
-        resp = requests.get(f"{BASE_URL}all", timeout=10)
+        resp = requests.get(f"{BASE_URL}all", timeout=10, params=params)
         if resp.status_code == 200:
             log("get_the_countries", "Status code 200 is doing great")
         else:
