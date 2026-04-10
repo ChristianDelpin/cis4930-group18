@@ -64,6 +64,16 @@ def setup_currency_databases():
     get_all_currency_codes()
     add_currency_to_countries()
 
+def setup_language_databases():
+    """Helper function to create and populate the language databases.
+    
+    Calls the necessary functions to fetch language data and build the
+    countries-by-language table in the processed languages database.
+    """
+    from languages import get_all_language_codes, add_language_to_countries
+    get_all_language_codes()
+    add_language_to_countries()
+
 def log(function_name, message):
     """Logs successful operations.
     
@@ -187,3 +197,4 @@ def run_pipeline():
     setup_currency_databases()
 
 # Leila's code for the pipeline
+    setup_language_databases()
