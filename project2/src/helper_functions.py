@@ -10,7 +10,7 @@ from datetime import datetime
 #from storage import save_the_records
 
 BASE_URL = "https://restcountries.com/v3.1/"
-OUTPUT_PATH = "data/processed/countries_data.csv"
+OUTPUT_PATH = "project2/data/processed/countries_data.csv"
 
 def save_as_sqlite(DataFrame, path, table_name, if_exists="append", index=False) -> bool:
     """Save a pandas DataFrame to SQLite, creating the table if necessary.
@@ -141,7 +141,7 @@ def extract_the_records(data):
 
 def directories_ensured():
     #makes sure that directories are there and if not then well creates them
-    os.makedirs("data/processed", exist_ok=True)
+    os.makedirs("project2/data/processed", exist_ok=True)
 
 
 def save_the_records(records):
