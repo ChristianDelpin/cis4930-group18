@@ -95,6 +95,9 @@ def log_error(function_name, error_message):
 def get_the_countries():
 #hmmm i forgot something here, i forgot the status-code check.... oops
     log("get_the_countries", "Starting the process of getting countries API")   
+    params = {
+        "fields": "name,region,subregion,population,capital,languages,area,cca2,flags"
+    }
     try: 
         resp = requests.get(f"{BASE_URL}all", timeout=10)
         if resp.status_code == 200:
