@@ -1,0 +1,29 @@
+{% extends "core/base.html" %}
+
+{% block title %}Countries by Currency{% endblock %}
+
+{% block content %}
+<h1>Countries Using {{ currency_code }}</h1>
+
+{% if currency %}
+    <p>
+        <strong>{{ currency.1 }}</strong>
+        {% if currency.2 %}
+            ({{ currency.2 }})
+        {% endif %}
+    </p>
+{% endif %}
+
+{% if country_codes %}
+    <p>Total countries: {{ country_codes|length }}</p>
+    <ul>
+        {% for code in country_codes %}
+            <li>{{ code }}</li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No countries found for this currency.</p>
+{% endif %}
+
+<p><a href="{% url 'currency-list' %}">Back to currency list</a></p>
+{% endblock %}

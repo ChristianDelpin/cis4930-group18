@@ -1,0 +1,19 @@
+{% extends "core/base.html" %}
+
+
+<!-- TODO: Once countries_data.csv is converted to a db, verify what works and what needs to change.-->
+
+{% block content %}
+{% if country_list %}
+    <h1>List of Countries</h1>
+    <ul>
+        {% for country in country_list %}
+            <li>{{ country.name }} ({{ country.cca2 }})</li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No countries available.</p>
+{% endif %}
+{% endblock %}
+
+{% block title %} List of Countries {% endblock %}

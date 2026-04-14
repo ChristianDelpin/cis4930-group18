@@ -1,0 +1,85 @@
+{% extends "core/base.html" %}
+
+{% block content %}
+<style>
+    .currency-table {
+        border-collapse: collapse;
+    }
+
+    .currency-table th,
+    .currency-table td {
+        text-align: left;
+    }
+
+    .currency-table th a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .currency-table th a:hover {
+        text-decoration: underline;
+    }
+
+    /* Keep header labels a little tighter. */
+    .currency-table th {
+        padding: 0.2rem 0.5rem;
+    }
+
+    /* Give data columns more horizontal breathing room. */
+    .currency-table td {
+        padding: 0.3rem 0.5rem;
+    }
+
+    .currency-table td:nth-child(1) {
+        padding-right: 2rem;
+    }
+
+    .currency-table td:nth-child(2) {
+        padding-right: 1.5rem;
+    }
+
+    .currency-table th:nth-child(1) {
+        padding-right: 1.1rem;
+    }
+
+    .currency-table th:nth-child(2) {
+        padding-right: 0.9rem;
+    }
+</style>
+<h1>List of Currencies</h1>
+{% if currency_list %}
+    <table class="currency-table">
+        <thead>
+            <tr>
+                <th>
+                    <a href="?sort=code&dir={% if current_sort == 'code' and current_dir == 'asc' %}desc{% else %}asc{% endif %}">
+                        Code{% if current_sort == 'code' %} ({{ current_dir }}){% endif %}
+                    </a>
+                </th>
+                <th>
+                    <a href="?sort=symbol&dir={% if current_sort == 'symbol' and current_dir == 'asc' %}desc{% else %}asc{% endif %}">
+                        Symbol{% if current_sort == 'symbol' %} ({{ current_dir }}){% endif %}
+                    </a>
+                </th>
+                <th>
+                    <a href="?sort=name&dir={% if current_sort == 'name' and current_dir == 'asc' %}desc{% else %}asc{% endif %}">
+                        Name{% if current_sort == 'name' %} ({{ current_dir }}){% endif %}
+                    </a>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+
+        {% for currency in currency_list %}
+            <tr>
+                <td><a href="{% url 'currency-countries' currency.code %}">{{ currency.code }}</a></td>
+                <td>{{ currency.symbol }}</td>
+                <td>{{ currency.name }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% else %}
+    <p>No currencies available.</p>
+{% endif %}
+{% endblock %}

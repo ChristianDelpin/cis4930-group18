@@ -15,8 +15,22 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, re_path
+from django.views.static import serve
+from django.conf import settings
+from pathlib import Path
+from . import views
+
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls), # can delete later
+    path('', views.home, name='home'),
+    path('project1/', views.project1, name='project1'),
+    re_path(r'^project1/figures/(?P<path>.*)$', serve, {'document_root': BASE_DIR / 'project1' / 'figures'}),
+
+    path('currency_list/', views.CurrencyListView.as_view(), name='currency-list'),
+    path('currency/<str:code>/', views.currency_countries, name='currency-countries'),
+    path('country_list/', views.CountryListView.as_view(), name='country-list'),
+    
 ]
