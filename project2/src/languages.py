@@ -7,11 +7,11 @@ from collections import defaultdict
 from helper_functions import log, log_error, save_as_sqlite
 
 # Raw DB
-db_country_raw = "../data/raw/countries.db"
+db_country_raw = "project2/data/raw/countries.db"
 
 # Processed DB
-db_language_processed = "../data/processed/languages.db"
-db_country_processed = "../data/processed/countries.db"
+db_language_processed = "project2/data/processed/languages.db"
+db_country_processed = "project2/data/processed/countries.db"
 
 # Tables
 table_country_languages = "countries_by_language"
