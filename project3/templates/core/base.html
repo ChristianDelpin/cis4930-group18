@@ -19,6 +19,12 @@
             <a href="{% url 'project1' %}">Project 1</a>
             <!--<a href="{% url 'country-list' %}">List of Countries</a> -->
             <a href="{% url 'currency-list' %}">List of Currencies</a>
+            #adding the search bar yayyyy
+            <form action="{% url 'search' %}" method="get" class="d-flex" style="margin-left:auto;">
+                <input type="text" name="q" class="form-control" placeholder="Search the countries">
+                <button class="btn btn-primary ms-2">Search</button>
+
+            </form>
         </nav>
         {% block content %}
         

@@ -74,3 +74,17 @@ def currency_countries(request, code):
         'country_codes': country_codes,
     }
     return render(request, 'core/currency_countries.html', context)
+#adding a search bar as part of the extra credit segment
+
+def search(request):
+    query = request.GET.get("q", "")
+    results = []
+
+    if query:
+        results = Country.objects.filter(name__icontains=query)
+
+    return render(request, "core/search.html", {
+        "query": query,
+        "results": results
+    })
+#ok... i did a tiny mistake making : instead of = but alll gooooodd now the video really quick and we're done
