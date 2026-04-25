@@ -1,0 +1,751 @@
+name,official_name,region,subregion,population,capital,languages,area,country_code,flag_url
+Ivory Coast,Republic of Côte d'Ivoire,Africa,Western Africa,31719275,Yamoussoukro,French,322463.0,CI,https://flagcdn.com/w320/ci.png
+Italy,Italian Republic,Europe,Southern Europe,58927633,Rome,"Italian, Catalan",301336.0,IT,https://flagcdn.com/w320/it.png
+Kyrgyzstan,Kyrgyz Republic,Asia,Central Asia,7281800,Bishkek,"Kyrgyz, Russian",199951.0,KG,https://flagcdn.com/w320/kg.png
+Papua New Guinea,Independent State of Papua New Guinea,Oceania,Melanesia,11781559,Port Moresby,"English, Hiri Motu, Tok Pisin",462840.0,PG,https://flagcdn.com/w320/pg.png
+Fiji,Republic of Fiji,Oceania,Melanesia,900869,Suva,"English, Fijian, Fiji Hindi",18272.0,FJ,https://flagcdn.com/w320/fj.png
+United Arab Emirates,United Arab Emirates,Asia,Western Asia,11294243,Abu Dhabi,Arabic,83600.0,AE,https://flagcdn.com/w320/ae.png
+Saint Kitts and Nevis,Federation of Saint Christopher and Nevis,Americas,Caribbean,51320,Basseterre,English,261.0,KN,https://flagcdn.com/w320/kn.png
+French Guiana,Guiana,Americas,South America,292354,Cayenne,French,83534.0,GF,https://flagcdn.com/w320/gf.png
+Tanzania,United Republic of Tanzania,Africa,Eastern Africa,68153004,Dodoma,"English, Swahili",947303.0,TZ,https://flagcdn.com/w320/tz.png
+Angola,Republic of Angola,Africa,Middle Africa,36170961,Luanda,Portuguese,1246700.0,AO,https://flagcdn.com/w320/ao.png
+Togo,Togolese Republic,Africa,Western Africa,8095498,Lomé,French,56785.0,TG,https://flagcdn.com/w320/tg.png
+Finland,Republic of Finland,Europe,Northern Europe,5650325,Helsinki,"Finnish, Swedish",338455.0,FI,https://flagcdn.com/w320/fi.png
+Malawi,Republic of Malawi,Africa,Eastern Africa,20734262,Lilongwe,"English, Chewa",118484.0,MW,https://flagcdn.com/w320/mw.png
+Mali,Republic of Mali,Africa,Western Africa,22395489,Bamako,French,1240192.0,ML,https://flagcdn.com/w320/ml.png
+Uzbekistan,Republic of Uzbekistan,Asia,Central Asia,37859698,Tashkent,"Russian, Uzbek",447400.0,UZ,https://flagcdn.com/w320/uz.png
+Senegal,Republic of Senegal,Africa,Western Africa,18593258,Dakar,French,196722.0,SN,https://flagcdn.com/w320/sn.png
+Uganda,Republic of Uganda,Africa,Eastern Africa,45905417,Kampala,"English, Swahili",241550.0,UG,https://flagcdn.com/w320/ug.png
+Djibouti,Republic of Djibouti,Africa,Eastern Africa,1066809,Djibouti,"Arabic, French",23200.0,DJ,https://flagcdn.com/w320/dj.png
+South Sudan,Republic of South Sudan,Africa,Middle Africa,15786898,Juba,English,619745.0,SS,https://flagcdn.com/w320/ss.png
+Jersey,Bailiwick of Jersey,Europe,Northern Europe,103267,Saint Helier,"English, French, Jèrriais",116.0,JE,https://flagcdn.com/w320/je.png
+Tuvalu,Tuvalu,Oceania,Polynesia,10643,Funafuti,"English, Tuvaluan",26.0,TV,https://flagcdn.com/w320/tv.png
+Japan,Japan,Asia,Eastern Asia,123210000,Tokyo,Japanese,377930.0,JP,https://flagcdn.com/w320/jp.png
+Oman,Sultanate of Oman,Asia,Western Asia,5343630,Muscat,Arabic,309500.0,OM,https://flagcdn.com/w320/om.png
+Belgium,Kingdom of Belgium,Europe,Western Europe,11825551,Brussels,"German, French, Dutch",30528.0,BE,https://flagcdn.com/w320/be.png
+Saint Martin,Saint Martin,Americas,Caribbean,31496,Marigot,French,53.0,MF,https://flagcdn.com/w320/mf.png
+Mayotte,Department of Mayotte,Africa,Eastern Africa,320901,Mamoudzou,French,374.0,YT,https://flagcdn.com/w320/yt.png
+France,French Republic,Europe,Western Europe,66351959,Paris,French,543908.0,FR,https://flagcdn.com/w320/fr.png
+Bulgaria,Republic of Bulgaria,Europe,Southeast Europe,6437360,Sofia,Bulgarian,110879.0,BG,https://flagcdn.com/w320/bg.png
+Cyprus,Republic of Cyprus,Europe,Southern Europe,1442614,Nicosia,"Greek, Turkish",9251.0,CY,https://flagcdn.com/w320/cy.png
+South Korea,Republic of Korea,Asia,Eastern Asia,51159889,Seoul,Korean,100210.0,KR,https://flagcdn.com/w320/kr.png
+Mexico,United Mexican States,Americas,North America,130575786,Mexico City,Spanish,1964375.0,MX,https://flagcdn.com/w320/mx.png
+North Macedonia,Republic of North Macedonia,Europe,Southeast Europe,1822612,Skopje,Macedonian,25713.0,MK,https://flagcdn.com/w320/mk.png
+Guyana,Co-operative Republic of Guyana,Americas,South America,772975,Georgetown,English,214969.0,GY,https://flagcdn.com/w320/gy.png
+Kosovo,Republic of Kosovo,Europe,Southeast Europe,1585566,Pristina,"Albanian, Serbian",10908.0,XK,https://flagcdn.com/w320/xk.png
+Morocco,Kingdom of Morocco,Africa,Northern Africa,36828330,Rabat,"Arabic, Berber",446550.0,MA,https://flagcdn.com/w320/ma.png
+Gibraltar,Gibraltar,Europe,Southern Europe,38000,Gibraltar,English,6.0,GI,https://flagcdn.com/w320/gi.png
+Western Sahara,Sahrawi Arab Democratic Republic,Africa,Northern Africa,600904,El Aaiún,"Berber, Hassaniya, Spanish",266000.0,EH,https://flagcdn.com/w320/eh.png
+Andorra,Principality of Andorra,Europe,Southern Europe,88406,Andorra la Vella,Catalan,468.0,AD,https://flagcdn.com/w320/ad.png
+Palau,Republic of Palau,Oceania,Micronesia,16733,Ngerulmud,"English, Palauan",459.0,PW,https://flagcdn.com/w320/pw.png
+Guinea,Republic of Guinea,Africa,Western Africa,14363931,Conakry,French,245857.0,GN,https://flagcdn.com/w320/gn.png
+Turks and Caicos Islands,Turks and Caicos Islands,Americas,Caribbean,50828,Cockburn Town,English,948.0,TC,https://flagcdn.com/w320/tc.png
+Saudi Arabia,Kingdom of Saudi Arabia,Asia,Western Asia,35300280,Riyadh,Arabic,2149690.0,SA,https://flagcdn.com/w320/sa.png
+Botswana,Republic of Botswana,Africa,Southern Africa,2359609,Gaborone,"English, Tswana",582000.0,BW,https://flagcdn.com/w320/bw.png
+Comoros,Union of the Comoros,Africa,Eastern Africa,919901,Moroni,"Arabic, French, Comorian",1862.0,KM,https://flagcdn.com/w320/km.png
+Belize,Belize,Americas,Central America,417634,Belmopan,"Belizean Creole, English, Spanish",22966.0,BZ,https://flagcdn.com/w320/bz.png
+Cambodia,Kingdom of Cambodia,Asia,South-Eastern Asia,17577760,Phnom Penh,Khmer,181035.0,KH,https://flagcdn.com/w320/kh.png
+Saint Lucia,Saint Lucia,Americas,Caribbean,184100,Castries,English,616.0,LC,https://flagcdn.com/w320/lc.png
+Mauritania,Islamic Republic of Mauritania,Africa,Western Africa,4927532,Nouakchott,Arabic,1030700.0,MR,https://flagcdn.com/w320/mr.png
+Jamaica,Jamaica,Americas,Caribbean,2825544,Kingston,"English, Jamaican Patois",10991.0,JM,https://flagcdn.com/w320/jm.png
+Cape Verde,Republic of Cabo Verde,Africa,Western Africa,491233,Praia,Portuguese,4033.0,CV,https://flagcdn.com/w320/cv.png
+Marshall Islands,Republic of the Marshall Islands,Oceania,Micronesia,42418,Majuro,"English, Marshallese",181.0,MH,https://flagcdn.com/w320/mh.png
+Namibia,Republic of Namibia,Africa,Southern Africa,3022401,Windhoek,"Afrikaans, German, English, Herero, Khoekhoe, Kwangali, Lozi, Ndonga, Tswana",825615.0,NA,https://flagcdn.com/w320/na.png
+Iran,Islamic Republic of Iran,Asia,Southern Asia,85961000,Tehran,Persian (Farsi),1648195.0,IR,https://flagcdn.com/w320/ir.png
+Wallis and Futuna,Territory of the Wallis and Futuna Islands,Oceania,Polynesia,11620,Mata-Utu,French,142.0,WF,https://flagcdn.com/w320/wf.png
+Azerbaijan,Republic of Azerbaijan,Asia,Western Asia,10241722,Baku,Azerbaijani,86600.0,AZ,https://flagcdn.com/w320/az.png
+Niger,Republic of Niger,Africa,Western Africa,26312034,Niamey,French,1267000.0,NE,https://flagcdn.com/w320/ne.png
+Heard Island and McDonald Islands,Heard Island and McDonald Islands,Antarctic,,0,,English,412.0,HM,https://flagcdn.com/w320/hm.png
+Laos,Lao People's Democratic Republic,Asia,South-Eastern Asia,7647000,Vientiane,Lao,236800.0,LA,https://flagcdn.com/w320/la.png
+Burkina Faso,Burkina Faso,Africa,Western Africa,24070553,Ouagadougou,French,272967.0,BF,https://flagcdn.com/w320/bf.png
+Cocos (Keeling) Islands,Territory of the Cocos (Keeling) Islands,Oceania,Australia and New Zealand,593,West Island,English,14.0,CC,https://flagcdn.com/w320/cc.png
+Luxembourg,Grand Duchy of Luxembourg,Europe,Western Europe,681973,Luxembourg,"German, French, Luxembourgish",2586.0,LU,https://flagcdn.com/w320/lu.png
+Indonesia,Republic of Indonesia,Asia,South-Eastern Asia,284438782,Jakarta,Indonesian,1904569.0,ID,https://flagcdn.com/w320/id.png
+Lebanon,Lebanese Republic,Asia,Western Asia,5490000,Beirut,"Arabic, French",10452.0,LB,https://flagcdn.com/w320/lb.png
+Turkey,Republic of Turkey,Asia,Western Asia,85664944,Ankara,Turkish,783562.0,TR,https://flagcdn.com/w320/tr.png
+Timor-Leste,Democratic Republic of Timor-Leste,Asia,South-Eastern Asia,1391221,Dili,"Portuguese, Tetum",14874.0,TL,https://flagcdn.com/w320/tl.png
+Zimbabwe,Republic of Zimbabwe,Africa,Southern Africa,17073087,Harare,"Chibarwe, English, Kalanga, Khoisan, Ndau, Northern Ndebele, Chewa, Shona, Sotho, Tonga, Tswana, Tsonga, Venda, Xhosa, Zimbabwean Sign Language",390757.0,ZW,https://flagcdn.com/w320/zw.png
+South Africa,Republic of South Africa,Africa,Southern Africa,63100945,"Pretoria, Bloemfontein, Cape Town","Afrikaans, English, Southern Ndebele, Northern Sotho, Southern Sotho, Swazi, Tswana, Tsonga, Venda, Xhosa, Zulu",1221037.0,ZA,https://flagcdn.com/w320/za.png
+Armenia,Republic of Armenia,Asia,Western Asia,3076200,Yerevan,Armenian,29743.0,AM,https://flagcdn.com/w320/am.png
+Ireland,Republic of Ireland,Europe,Northern Europe,5458600,Dublin,"English, Irish",70273.0,IE,https://flagcdn.com/w320/ie.png
+Norway,Kingdom of Norway,Europe,Northern Europe,5606944,Oslo,"Norwegian Nynorsk, Norwegian Bokmål, Sami",386224.0,NO,https://flagcdn.com/w320/no.png
+Kenya,Republic of Kenya,Africa,Eastern Africa,53330978,Nairobi,"English, Swahili",580367.0,KE,https://flagcdn.com/w320/ke.png
+North Korea,Democratic People's Republic of Korea,Asia,Eastern Asia,25950000,Pyongyang,Korean,120538.0,KP,https://flagcdn.com/w320/kp.png
+Afghanistan,Islamic Republic of Afghanistan,Asia,Southern Asia,43844000,Kabul,"Dari, Pashto, Turkmen",652230.0,AF,https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png
+Bermuda,Bermuda,Americas,North America,64055,Hamilton,English,54.0,BM,https://flagcdn.com/w320/bm.png
+Spain,Kingdom of Spain,Europe,Southern Europe,49315949,Madrid,"Spanish, Catalan, Basque, Galician",505992.0,ES,https://flagcdn.com/w320/es.png
+Netherlands,Kingdom of the Netherlands,Europe,Western Europe,18100436,Amsterdam,Dutch,41865.0,NL,https://flagcdn.com/w320/nl.png
+Nicaragua,Republic of Nicaragua,Americas,Central America,6803886,Managua,Spanish,130373.0,NI,https://flagcdn.com/w320/ni.png
+Lesotho,Kingdom of Lesotho,Africa,Southern Africa,2116427,Maseru,"English, Sotho",30355.0,LS,https://flagcdn.com/w320/ls.png
+Egypt,Arab Republic of Egypt,Africa,Northern Africa,107271260,Cairo,Arabic,1002450.0,EG,https://flagcdn.com/w320/eg.png
+Gambia,Republic of the Gambia,Africa,Western Africa,2422712,Banjul,English,10689.0,GM,https://flagcdn.com/w320/gm.png
+Brazil,Federative Republic of Brazil,Americas,South America,213421037,Brasília,Portuguese,8515767.0,BR,https://flagcdn.com/w320/br.png
+Australia,Commonwealth of Australia,Oceania,Australia and New Zealand,27536874,Canberra,English,7692024.0,AU,https://flagcdn.com/w320/au.png
+Bouvet Island,Bouvet Island,Antarctic,,0,,Norwegian,49.0,BV,https://flagcdn.com/w320/bv.png
+Pitcairn Islands,Pitcairn Group of Islands,Oceania,Polynesia,35,Adamstown,English,47.0,PN,https://flagcdn.com/w320/pn.png
+Barbados,Barbados,Americas,Caribbean,267800,Bridgetown,English,430.0,BB,https://flagcdn.com/w320/bb.png
+Madagascar,Republic of Madagascar,Africa,Eastern Africa,31727042,Antananarivo,"French, Malagasy",587041.0,MG,https://flagcdn.com/w320/mg.png
+United Kingdom,United Kingdom of Great Britain and Northern Ireland,Europe,Northern Europe,69281437,London,English,244376.0,GB,https://flagcdn.com/w320/gb.png
+Portugal,Portuguese Republic,Europe,Southern Europe,10749635,Lisbon,Portuguese,92090.0,PT,https://flagcdn.com/w320/pt.png
+Greenland,Greenland,Americas,North America,56542,Nuuk,Greenlandic,2166086.0,GL,https://flagcdn.com/w320/gl.png
+American Samoa,American Samoa,Oceania,Polynesia,49710,Pago Pago,"English, Samoan",199.0,AS,https://flagcdn.com/w320/as.png
+South Georgia,South Georgia and the South Sandwich Islands,Antarctic,,0,King Edward Point,English,3903.0,GS,https://flagcdn.com/w320/gs.png
+Turkmenistan,Turkmenistan,Asia,Central Asia,7057841,Ashgabat,"Russian, Turkmen",488100.0,TM,https://flagcdn.com/w320/tm.png
+Guadeloupe,Guadeloupe,Americas,Caribbean,378561,Basse-Terre,French,1628.0,GP,https://flagcdn.com/w320/gp.png
+Dominica,Commonwealth of Dominica,Americas,Caribbean,67408,Roseau,English,751.0,DM,https://flagcdn.com/w320/dm.png
+Solomon Islands,Solomon Islands,Oceania,Melanesia,750325,Honiara,English,28896.0,SB,https://flagcdn.com/w320/sb.png
+Saint Pierre and Miquelon,Saint Pierre and Miquelon,Americas,North America,5819,Saint-Pierre,French,242.0,PM,https://flagcdn.com/w320/pm.png
+Rwanda,Republic of Rwanda,Africa,Eastern Africa,14104969,Kigali,"English, French, Kinyarwanda",26338.0,RW,https://flagcdn.com/w320/rw.png
+Norfolk Island,Territory of Norfolk Island,Oceania,Australia and New Zealand,2188,Kingston,"English, Norfuk",36.0,NF,https://flagcdn.com/w320/nf.png
+Panama,Republic of Panama,Americas,Central America,4064780,Panama City,Spanish,75417.0,PA,https://flagcdn.com/w320/pa.png
+Bahamas,Commonwealth of the Bahamas,Americas,Caribbean,398165,Nassau,English,13943.0,BS,https://flagcdn.com/w320/bs.png
+Tokelau,Tokelau,Oceania,Polynesia,2608,Fakaofo,"English, Samoan, Tokelauan",12.0,TK,https://flagcdn.com/w320/tk.png
+Montenegro,Montenegro,Europe,Southeast Europe,623327,Podgorica,Montenegrin,13812.0,ME,https://flagcdn.com/w320/me.png
+Åland Islands,Åland Islands,Europe,Northern Europe,30654,Mariehamn,Swedish,1580.0,AX,https://flagcdn.com/w320/ax.png
+Niue,Niue,Oceania,Polynesia,1681,Alofi,"English, Niuean",260.0,NU,https://flagcdn.com/w320/nu.png
+Argentina,Argentine Republic,Americas,South America,46735004,Buenos Aires,"Guaraní, Spanish",2780400.0,AR,https://flagcdn.com/w320/ar.png
+Cuba,Republic of Cuba,Americas,Caribbean,9748007,Havana,Spanish,109884.0,CU,https://flagcdn.com/w320/cu.png
+Cayman Islands,Cayman Islands,Americas,Caribbean,84738,George Town,English,264.0,KY,https://flagcdn.com/w320/ky.png
+Kazakhstan,Republic of Kazakhstan,Asia,Central Asia,20426568,Astana,"Kazakh, Russian",2724900.0,KZ,https://flagcdn.com/w320/kz.png
+Russia,Russian Federation,Europe,Eastern Europe,146028325,Moscow,Russian,17098246.0,RU,https://flagcdn.com/w320/ru.png
+India,Republic of India,Asia,Southern Asia,1417492000,New Delhi,"English, Hindi, Tamil",3287263.0,IN,https://flagcdn.com/w320/in.png
+British Virgin Islands,Virgin Islands,Americas,Caribbean,39471,Road Town,English,151.0,VG,https://flagcdn.com/w320/vg.png
+Guam,Guam,Oceania,Micronesia,153836,Hagåtña,"Chamorro, English, Spanish",549.0,GU,https://flagcdn.com/w320/gu.png
+Myanmar,Republic of the Union of Myanmar,Asia,South-Eastern Asia,51316756,Naypyidaw,Burmese,676578.0,MM,https://flagcdn.com/w320/mm.png
+DR Congo,Democratic Republic of the Congo,Africa,Middle Africa,112832000,Kinshasa,"French, Kikongo, Lingala, Tshiluba, Swahili",2344858.0,CD,https://flagcdn.com/w320/cd.png
+Mauritius,Republic of Mauritius,Africa,Eastern Africa,1243741,Port Louis,"English, French, Mauritian Creole",2040.0,MU,https://flagcdn.com/w320/mu.png
+Falkland Islands,Falkland Islands,Americas,South America,3662,Stanley,English,12173.0,FK,https://flagcdn.com/w320/fk.png
+Northern Mariana Islands,Commonwealth of the Northern Mariana Islands,Oceania,Micronesia,47329,Saipan,"Carolinian, Chamorro, English",464.0,MP,https://flagcdn.com/w320/mp.png
+Ukraine,Ukraine,Europe,Eastern Europe,32862000,Kyiv,Ukrainian,603550.0,UA,https://flagcdn.com/w320/ua.png
+Monaco,Principality of Monaco,Europe,Western Europe,38423,Monaco,French,2.02,MC,https://flagcdn.com/w320/mc.png
+Tajikistan,Republic of Tajikistan,Asia,Central Asia,10499000,Dushanbe,"Russian, Tajik",143100.0,TJ,https://flagcdn.com/w320/tj.png
+Malaysia,Malaysia,Asia,South-Eastern Asia,34231700,Kuala Lumpur,"English, Malay",330803.0,MY,https://flagcdn.com/w320/my.png
+Somalia,Federal Republic of Somalia,Africa,Eastern Africa,19655000,Mogadishu,"Arabic, Somali",637657.0,SO,https://flagcdn.com/w320/so.png
+Antigua and Barbuda,Antigua and Barbuda,Americas,Caribbean,103603,Saint John's,English,442.0,AG,https://flagcdn.com/w320/ag.png
+Central African Republic,Central African Republic,Africa,Middle Africa,6470307,Bangui,"French, Sango",622984.0,CF,https://flagcdn.com/w320/cf.png
+Macau,Macao Special Administrative Region of the People's Republic of China,Asia,Eastern Asia,685900,,"Portuguese, Chinese",30.0,MO,https://flagcdn.com/w320/mo.png
+Israel,State of Israel,Asia,Western Asia,10134800,Jerusalem,"Arabic, Hebrew",21937.0,IL,https://flagcdn.com/w320/il.png
+Nigeria,Federal Republic of Nigeria,Africa,Western Africa,223800000,Abuja,English,923768.0,NG,https://flagcdn.com/w320/ng.png
+Honduras,Republic of Honduras,Americas,Central America,9892632,Tegucigalpa,Spanish,112492.0,HN,https://flagcdn.com/w320/hn.png
+Sierra Leone,Republic of Sierra Leone,Africa,Western Africa,9077691,Freetown,English,71740.0,SL,https://flagcdn.com/w320/sl.png
+Tunisia,Tunisian Republic,Africa,Northern Africa,11972169,Tunis,Arabic,163610.0,TN,https://flagcdn.com/w320/tn.png
+Lithuania,Republic of Lithuania,Europe,Northern Europe,2894886,Vilnius,Lithuanian,65300.0,LT,https://flagcdn.com/w320/lt.png
+Iraq,Republic of Iraq,Asia,Western Asia,46118793,Baghdad,"Arabic, Aramaic, Sorani",438317.0,IQ,https://flagcdn.com/w320/iq.png
+Switzerland,Swiss Confederation,Europe,Western Europe,9082848,Bern,"French, Swiss German, Italian, Romansh",41284.0,CH,https://flagcdn.com/w320/ch.png
+Chile,Republic of Chile,Americas,South America,20206953,Santiago,Spanish,756102.0,CL,https://flagcdn.com/w320/cl.png
+Taiwan,Republic of China (Taiwan),Asia,Eastern Asia,23317031,Taipei,Chinese,36197.0,TW,https://flagcdn.com/w320/tw.png
+Vietnam,Socialist Republic of Vietnam,Asia,South-Eastern Asia,101343800,Hanoi,Vietnamese,331212.0,VN,https://flagcdn.com/w320/vn.png
+Bangladesh,People's Republic of Bangladesh,Asia,Southern Asia,169828911,Dhaka,Bengali,147570.0,BD,https://flagcdn.com/w320/bd.png
+Vanuatu,Republic of Vanuatu,Oceania,Melanesia,321409,Port Vila,"Bislama, English, French",12189.0,VU,https://flagcdn.com/w320/vu.png
+Pakistan,Islamic Republic of Pakistan,Asia,Southern Asia,241499431,Islamabad,"English, Urdu",796095.0,PK,https://flagcdn.com/w320/pk.png
+Latvia,Republic of Latvia,Europe,Northern Europe,1829000,Riga,Latvian,64559.0,LV,https://flagcdn.com/w320/lv.png
+Malta,Republic of Malta,Europe,Southern Europe,574250,Valletta,"English, Maltese",316.0,MT,https://flagcdn.com/w320/mt.png
+Seychelles,Republic of Seychelles,Africa,Eastern Africa,122729,Victoria,"Seychellois Creole, English, French",452.0,SC,https://flagcdn.com/w320/sc.png
+Montserrat,Montserrat,Americas,Caribbean,4386,Plymouth,English,102.0,MS,https://flagcdn.com/w320/ms.png
+Anguilla,Anguilla,Americas,Caribbean,16010,The Valley,English,91.0,AI,https://flagcdn.com/w320/ai.png
+Greece,Hellenic Republic,Europe,Southern Europe,10400720,Athens,Greek,131990.0,GR,https://flagcdn.com/w320/gr.png
+Czechia,Czech Republic,Europe,Central Europe,10882341,Prague,"Czech, Slovak",78865.0,CZ,https://flagcdn.com/w320/cz.png
+Zambia,Republic of Zambia,Africa,Eastern Africa,19693423,Lusaka,English,752612.0,ZM,https://flagcdn.com/w320/zm.png
+Hong Kong,Hong Kong Special Administrative Region of the People's Republic of China,Asia,Eastern Asia,7527500,City of Victoria,"English, Chinese",1104.0,HK,https://flagcdn.com/w320/hk.png
+United States,United States of America,Americas,North America,340110988,"Washington, D.C.",English,9525067.0,US,https://flagcdn.com/w320/us.png
+Eswatini,Kingdom of Eswatini,Africa,Southern Africa,1235549,Mbabane,"English, Swazi",17364.0,SZ,https://flagcdn.com/w320/sz.png
+Slovenia,Republic of Slovenia,Europe,Central Europe,2130638,Ljubljana,Slovene,20273.0,SI,https://flagcdn.com/w320/si.png
+Caribbean Netherlands,"Bonaire, Sint Eustatius and Saba",Americas,Caribbean,31980,Kralendijk,"English, Dutch, Papiamento",328.0,BQ,https://flagcdn.com/w320/bq.png
+Maldives,Republic of the Maldives,Asia,Southern Asia,515132,Malé,Maldivian,300.0,MV,https://flagcdn.com/w320/mv.png
+Ghana,Republic of Ghana,Africa,Western Africa,33742380,Accra,English,238533.0,GH,https://flagcdn.com/w320/gh.png
+Paraguay,Republic of Paraguay,Americas,South America,6109644,Asunción,"Guaraní, Spanish",406752.0,PY,https://flagcdn.com/w320/py.png
+Mozambique,Republic of Mozambique,Africa,Eastern Africa,34090466,Maputo,Portuguese,801590.0,MZ,https://flagcdn.com/w320/mz.png
+Palestine,State of Palestine,Asia,Western Asia,5483450,"Ramallah, Jerusalem",Arabic,6220.0,PS,https://flagcdn.com/w320/ps.png
+Moldova,Republic of Moldova,Europe,Eastern Europe,2749076,Chișinău,Romanian,33847.0,MD,https://flagcdn.com/w320/md.png
+Liberia,Republic of Liberia,Africa,Western Africa,5248621,Monrovia,English,111369.0,LR,https://flagcdn.com/w320/lr.png
+Liechtenstein,Principality of Liechtenstein,Europe,Western Europe,40900,Vaduz,German,160.0,LI,https://flagcdn.com/w320/li.png
+Peru,Republic of Peru,Americas,South America,34350244,Lima,"Aymara, Quechua, Spanish",1285216.0,PE,https://flagcdn.com/w320/pe.png
+Qatar,State of Qatar,Asia,Western Asia,3173024,Doha,Arabic,11586.0,QA,https://flagcdn.com/w320/qa.png
+Christmas Island,Territory of Christmas Island,Oceania,Australia and New Zealand,1692,Flying Fish Cove,English,135.0,CX,https://flagcdn.com/w320/cx.png
+Georgia,Georgia,Asia,Western Asia,4000921,Tbilisi,Georgian,69700.0,GE,https://flagcdn.com/w320/ge.png
+Ecuador,Republic of Ecuador,Americas,South America,18103660,Quito,Spanish,276841.0,EC,https://flagcdn.com/w320/ec.png
+Philippines,Republic of the Philippines,Asia,South-Eastern Asia,114123600,Manila,"English, Filipino",342353.0,PH,https://flagcdn.com/w320/ph.png
+Ethiopia,Federal Democratic Republic of Ethiopia,Africa,Eastern Africa,111652998,Addis Ababa,Amharic,1104300.0,ET,https://flagcdn.com/w320/et.png
+United States Virgin Islands,Virgin Islands of the United States,Americas,Caribbean,87146,Charlotte Amalie,English,347.0,VI,https://flagcdn.com/w320/vi.png
+Syria,Syrian Arab Republic,Asia,Western Asia,25620000,Damascus,Arabic,185180.0,SY,https://flagcdn.com/w320/sy.png
+Romania,Romania,Europe,Southeast Europe,19036031,Bucharest,Romanian,238391.0,RO,https://flagcdn.com/w320/ro.png
+Guatemala,Republic of Guatemala,Americas,Central America,18079810,Guatemala City,Spanish,108889.0,GT,https://flagcdn.com/w320/gt.png
+Nepal,Federal Democratic Republic of Nepal,Asia,Southern Asia,29911840,Kathmandu,Nepali,147181.0,NP,https://flagcdn.com/w320/np.png
+Réunion,Réunion Island,Africa,Eastern Africa,896175,Saint-Denis,French,2511.0,RE,https://flagcdn.com/w320/re.png
+Benin,Republic of Benin,Africa,Western Africa,13224860,Porto-Novo,French,112622.0,BJ,https://flagcdn.com/w320/bj.png
+Kuwait,State of Kuwait,Asia,Western Asia,4881254,Kuwait City,Arabic,17818.0,KW,https://flagcdn.com/w320/kw.png
+Suriname,Republic of Suriname,Americas,South America,616500,Paramaribo,Dutch,163820.0,SR,https://flagcdn.com/w320/sr.png
+New Caledonia,New Caledonia,Oceania,Melanesia,264596,Nouméa,French,18575.0,NC,https://flagcdn.com/w320/nc.png
+Sudan,Republic of the Sudan,Africa,Northern Africa,51662000,Khartoum,"Arabic, English",1886068.0,SD,https://flagcdn.com/w320/sd.png
+United States Minor Outlying Islands,United States Minor Outlying Islands,Americas,North America,0,Washington DC,English,34.2,UM,https://flagcdn.com/w320/um.png
+Chad,Republic of Chad,Africa,Middle Africa,19340757,N'Djamena,"Arabic, French",1284000.0,TD,https://flagcdn.com/w320/td.png
+Uruguay,Oriental Republic of Uruguay,Americas,South America,3499451,Montevideo,Spanish,181034.0,UY,https://flagcdn.com/w320/uy.png
+Bosnia and Herzegovina,Bosnia and Herzegovina,Europe,Southeast Europe,3422000,Sarajevo,"Bosnian, Croatian, Serbian",51209.0,BA,https://flagcdn.com/w320/ba.png
+Trinidad and Tobago,Republic of Trinidad and Tobago,Americas,Caribbean,1367764,Port of Spain,English,5130.0,TT,https://flagcdn.com/w320/tt.png
+Sweden,Kingdom of Sweden,Europe,Northern Europe,10605098,Stockholm,Swedish,450295.0,SE,https://flagcdn.com/w320/se.png
+Iceland,Iceland,Europe,Northern Europe,391810,Reykjavik,Icelandic,103000.0,IS,https://flagcdn.com/w320/is.png
+Haiti,Republic of Haiti,Americas,Caribbean,11867032,Port-au-Prince,"French, Haitian Creole",27750.0,HT,https://flagcdn.com/w320/ht.png
+Brunei,"Nation of Brunei, Abode of Peace",Asia,South-Eastern Asia,455500,Bandar Seri Begawan,Malay,5765.0,BN,https://flagcdn.com/w320/bn.png
+French Southern and Antarctic Lands,Territory of the French Southern and Antarctic Lands,Antarctic,,400,Port-aux-Français,French,7747.0,TF,https://flagcdn.com/w320/tf.png
+Guernsey,Bailiwick of Guernsey,Europe,Northern Europe,64781,St. Peter Port,"English, French, Guernésiais",78.0,GG,https://flagcdn.com/w320/gg.png
+Croatia,Republic of Croatia,Europe,Southeast Europe,3866233,Zagreb,Croatian,56594.0,HR,https://flagcdn.com/w320/hr.png
+Saint Barthélemy,Collectivity of Saint Barthélemy,Americas,Caribbean,10562,Gustavia,French,21.0,BL,https://flagcdn.com/w320/bl.png
+Mongolia,Mongolia,Asia,Eastern Asia,3544835,Ulan Bator,Mongolian,1564110.0,MN,https://flagcdn.com/w320/mn.png
+Aruba,Aruba,Americas,Caribbean,107566,Oranjestad,"Dutch, Papiamento",180.0,AW,https://flagcdn.com/w320/aw.png
+Republic of the Congo,Republic of the Congo,Africa,Middle Africa,6142180,Brazzaville,"French, Kikongo, Lingala",342000.0,CG,https://flagcdn.com/w320/cg.png
+São Tomé and Príncipe,Democratic Republic of São Tomé and Príncipe,Africa,Middle Africa,209607,São Tomé,Portuguese,964.0,ST,https://flagcdn.com/w320/st.png
+Yemen,Republic of Yemen,Asia,Western Asia,32684503,Sana'a,Arabic,527968.0,YE,https://flagcdn.com/w320/ye.png
+Equatorial Guinea,Republic of Equatorial Guinea,Africa,Middle Africa,1668768,Ciudad de la Paz,"French, Portuguese, Spanish",28051.0,GQ,https://flagcdn.com/w320/gq.png
+Svalbard and Jan Mayen,Svalbard og Jan Mayen,Europe,Northern Europe,2530,Longyearbyen,Norwegian,61399.0,SJ,https://flagcdn.com/w320/sj.png
+Colombia,Republic of Colombia,Americas,South America,53057212,Bogotá,Spanish,1141748.0,CO,https://flagcdn.com/w320/co.png
+Guinea-Bissau,Republic of Guinea-Bissau,Africa,Western Africa,1781308,Bissau,"Portuguese, Upper Guinea Creole",36125.0,GW,https://flagcdn.com/w320/gw.png
+Kiribati,Independent and Sovereign Republic of Kiribati,Oceania,Micronesia,120740,South Tarawa,"English, Gilbertese",811.0,KI,https://flagcdn.com/w320/ki.png
+Germany,Federal Republic of Germany,Europe,Western Europe,83491249,Berlin,German,357114.0,DE,https://flagcdn.com/w320/de.png
+Thailand,Kingdom of Thailand,Asia,South-Eastern Asia,65859640,Bangkok,Thai,513120.0,TH,https://flagcdn.com/w320/th.png
+Isle of Man,Isle of Man,Europe,Northern Europe,84530,Douglas,"English, Manx",572.0,IM,https://flagcdn.com/w320/im.png
+Bhutan,Kingdom of Bhutan,Asia,Southern Asia,784043,Thimphu,Dzongkha,38394.0,BT,https://flagcdn.com/w320/bt.png
+Gabon,Gabonese Republic,Africa,Middle Africa,2469296,Libreville,French,267668.0,GA,https://flagcdn.com/w320/ga.png
+Sint Maarten,Sint Maarten,Americas,Caribbean,41349,Philipsburg,"English, French, Dutch",34.0,SX,https://flagcdn.com/w320/sx.png
+Sri Lanka,Democratic Socialist Republic of Sri Lanka,Asia,Southern Asia,21763170,Sri Jayawardenepura Kotte,"Sinhala, Tamil",65610.0,LK,https://flagcdn.com/w320/lk.png
+Albania,Republic of Albania,Europe,Southeast Europe,2363314,Tirana,Albanian,28748.0,AL,https://flagcdn.com/w320/al.png
+New Zealand,New Zealand,Oceania,Australia and New Zealand,5324700,Wellington,"English, Māori, New Zealand Sign Language",268838.0,NZ,https://flagcdn.com/w320/nz.png
+Algeria,People's Democratic Republic of Algeria,Africa,Northern Africa,47400000,Algiers,Arabic,2381741.0,DZ,https://flagcdn.com/w320/dz.png
+San Marino,Republic of San Marino,Europe,Southern Europe,34132,City of San Marino,Italian,61.0,SM,https://flagcdn.com/w320/sm.png
+Micronesia,Federated States of Micronesia,Oceania,Micronesia,105564,Palikir,English,702.0,FM,https://flagcdn.com/w320/fm.png
+"Saint Helena, Ascension and Tristan da Cunha","Saint Helena, Ascension and Tristan da Cunha",Africa,Western Africa,5651,Jamestown,English,394.0,SH,https://flagcdn.com/w320/sh.png
+Curaçao,Country of Curaçao,Americas,Caribbean,156115,Willemstad,"English, Dutch, Papiamento",444.0,CW,https://flagcdn.com/w320/cw.png
+El Salvador,Republic of El Salvador,Americas,Central America,6029976,San Salvador,Spanish,21041.0,SV,https://flagcdn.com/w320/sv.png
+Martinique,Martinique,Americas,Caribbean,349925,Fort-de-France,French,1128.0,MQ,https://flagcdn.com/w320/mq.png
+Nauru,Republic of Nauru,Oceania,Micronesia,11680,Yaren,"English, Nauru",21.0,NR,https://flagcdn.com/w320/nr.png
+Vatican City,Vatican City State,Europe,Southern Europe,882,Vatican City,"Italian, Latin",0.49,VA,https://flagcdn.com/w320/va.png
+Grenada,Grenada,Americas,Caribbean,109021,St. George's,English,344.0,GD,https://flagcdn.com/w320/gd.png
+Tonga,Kingdom of Tonga,Oceania,Polynesia,100179,Nuku'alofa,"English, Tongan",747.0,TO,https://flagcdn.com/w320/to.png
+Burundi,Republic of Burundi,Africa,Eastern Africa,12332788,Gitega,"French, Kirundi",27834.0,BI,https://flagcdn.com/w320/bi.png
+Samoa,Independent State of Samoa,Oceania,Polynesia,205557,Apia,"English, Samoan",2842.0,WS,https://flagcdn.com/w320/ws.png
+Denmark,Kingdom of Denmark,Europe,Northern Europe,6011488,Copenhagen,Danish,43094.0,DK,https://flagcdn.com/w320/dk.png
+Venezuela,Bolivarian Republic of Venezuela,Americas,South America,28517000,Caracas,Spanish,916445.0,VE,https://flagcdn.com/w320/ve.png
+Austria,Republic of Austria,Europe,Central Europe,9200931,Vienna,German,83871.0,AT,https://flagcdn.com/w320/at.png
+Slovakia,Slovak Republic,Europe,Central Europe,5413813,Bratislava,Slovak,49037.0,SK,https://flagcdn.com/w320/sk.png
+China,People's Republic of China,Asia,Eastern Asia,1408280000,Beijing,Chinese,9706961.0,CN,https://flagcdn.com/w320/cn.png
+British Indian Ocean Territory,British Indian Ocean Territory,Africa,Eastern Africa,0,Diego Garcia,English,60.0,IO,https://flagcdn.com/w320/io.png
+French Polynesia,French Polynesia,Oceania,Polynesia,279500,Papeetē,French,4167.0,PF,https://flagcdn.com/w320/pf.png
+Bolivia,Plurinational State of Bolivia,Americas,South America,11365333,Sucre,"Aymara, Guaraní, Quechua, Spanish",1098581.0,BO,https://flagcdn.com/w320/bo.png
+Antarctica,Antarctica,Antarctic,,1300,,,14000000.0,AQ,https://flagcdn.com/w320/aq.png
+Libya,State of Libya,Africa,Northern Africa,7459000,Tripoli,Arabic,1759540.0,LY,https://flagcdn.com/w320/ly.png
+Estonia,Republic of Estonia,Europe,Northern Europe,1369995,Tallinn,Estonian,45227.0,EE,https://flagcdn.com/w320/ee.png
+Cook Islands,Cook Islands,Oceania,Polynesia,15040,Avarua,"English, Cook Islands Māori",236.0,CK,https://flagcdn.com/w320/ck.png
+Puerto Rico,Commonwealth of Puerto Rico,Americas,Caribbean,3203295,San Juan,"English, Spanish",8870.0,PR,https://flagcdn.com/w320/pr.png
+Belarus,Republic of Belarus,Europe,Eastern Europe,9109280,Minsk,"Belarusian, Russian",207600.0,BY,https://flagcdn.com/w320/by.png
+Faroe Islands,Faroe Islands,Europe,Northern Europe,54885,Tórshavn,"Danish, Faroese",1393.0,FO,https://flagcdn.com/w320/fo.png
+Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,Americas,Caribbean,110872,Kingstown,English,389.0,VC,https://flagcdn.com/w320/vc.png
+Dominican Republic,Dominican Republic,Americas,Caribbean,10771504,Santo Domingo,Spanish,48671.0,DO,https://flagcdn.com/w320/do.png
+Hungary,Hungary,Europe,Central Europe,9539502,Budapest,Hungarian,93028.0,HU,https://flagcdn.com/w320/hu.png
+Bahrain,Kingdom of Bahrain,Asia,Western Asia,1594654,Manama,Arabic,765.0,BH,https://flagcdn.com/w320/bh.png
+Cameroon,Republic of Cameroon,Africa,Middle Africa,29442327,Yaoundé,"English, French",475442.0,CM,https://flagcdn.com/w320/cm.png
+Canada,Canada,Americas,North America,41651653,Ottawa,"English, French",9984670.0,CA,https://flagcdn.com/w320/ca.png
+Eritrea,State of Eritrea,Africa,Eastern Africa,3607000,Asmara,"Arabic, English, Tigrinya",117600.0,ER,https://flagcdn.com/w320/er.png
+Singapore,Republic of Singapore,Asia,South-Eastern Asia,6110200,Singapore,"English, Chinese, Malay, Tamil",710.0,SG,https://flagcdn.com/w320/sg.png
+Costa Rica,Republic of Costa Rica,Americas,Central America,5309625,San José,Spanish,51100.0,CR,https://flagcdn.com/w320/cr.png
+Serbia,Republic of Serbia,Europe,Southeast Europe,6567783,Belgrade,Serbian,77589.0,RS,https://flagcdn.com/w320/rs.png
+Poland,Republic of Poland,Europe,Central Europe,37392000,Warsaw,Polish,312679.0,PL,https://flagcdn.com/w320/pl.png
+Jordan,Hashemite Kingdom of Jordan,Asia,Western Asia,11734000,Amman,Arabic,89342.0,JO,https://flagcdn.com/w320/jo.png
+Ivory Coast,Republic of Côte d'Ivoire,Africa,Western Africa,31719275,Yamoussoukro,French,322463.0,CI,https://flagcdn.com/w320/ci.png
+Italy,Italian Republic,Europe,Southern Europe,58927633,Rome,"Italian, Catalan",301336.0,IT,https://flagcdn.com/w320/it.png
+Kyrgyzstan,Kyrgyz Republic,Asia,Central Asia,7281800,Bishkek,"Kyrgyz, Russian",199951.0,KG,https://flagcdn.com/w320/kg.png
+Papua New Guinea,Independent State of Papua New Guinea,Oceania,Melanesia,11781559,Port Moresby,"English, Hiri Motu, Tok Pisin",462840.0,PG,https://flagcdn.com/w320/pg.png
+Fiji,Republic of Fiji,Oceania,Melanesia,900869,Suva,"English, Fijian, Fiji Hindi",18272.0,FJ,https://flagcdn.com/w320/fj.png
+United Arab Emirates,United Arab Emirates,Asia,Western Asia,11294243,Abu Dhabi,Arabic,83600.0,AE,https://flagcdn.com/w320/ae.png
+Saint Kitts and Nevis,Federation of Saint Christopher and Nevis,Americas,Caribbean,51320,Basseterre,English,261.0,KN,https://flagcdn.com/w320/kn.png
+French Guiana,Guiana,Americas,South America,292354,Cayenne,French,83534.0,GF,https://flagcdn.com/w320/gf.png
+Tanzania,United Republic of Tanzania,Africa,Eastern Africa,68153004,Dodoma,"English, Swahili",947303.0,TZ,https://flagcdn.com/w320/tz.png
+Angola,Republic of Angola,Africa,Middle Africa,36170961,Luanda,Portuguese,1246700.0,AO,https://flagcdn.com/w320/ao.png
+Togo,Togolese Republic,Africa,Western Africa,8095498,Lomé,French,56785.0,TG,https://flagcdn.com/w320/tg.png
+Finland,Republic of Finland,Europe,Northern Europe,5650325,Helsinki,"Finnish, Swedish",338455.0,FI,https://flagcdn.com/w320/fi.png
+Malawi,Republic of Malawi,Africa,Eastern Africa,20734262,Lilongwe,"English, Chewa",118484.0,MW,https://flagcdn.com/w320/mw.png
+Mali,Republic of Mali,Africa,Western Africa,22395489,Bamako,French,1240192.0,ML,https://flagcdn.com/w320/ml.png
+Uzbekistan,Republic of Uzbekistan,Asia,Central Asia,37859698,Tashkent,"Russian, Uzbek",447400.0,UZ,https://flagcdn.com/w320/uz.png
+Senegal,Republic of Senegal,Africa,Western Africa,18593258,Dakar,French,196722.0,SN,https://flagcdn.com/w320/sn.png
+Uganda,Republic of Uganda,Africa,Eastern Africa,45905417,Kampala,"English, Swahili",241550.0,UG,https://flagcdn.com/w320/ug.png
+Djibouti,Republic of Djibouti,Africa,Eastern Africa,1066809,Djibouti,"Arabic, French",23200.0,DJ,https://flagcdn.com/w320/dj.png
+South Sudan,Republic of South Sudan,Africa,Middle Africa,15786898,Juba,English,619745.0,SS,https://flagcdn.com/w320/ss.png
+Jersey,Bailiwick of Jersey,Europe,Northern Europe,103267,Saint Helier,"English, French, Jèrriais",116.0,JE,https://flagcdn.com/w320/je.png
+Tuvalu,Tuvalu,Oceania,Polynesia,10643,Funafuti,"English, Tuvaluan",26.0,TV,https://flagcdn.com/w320/tv.png
+Japan,Japan,Asia,Eastern Asia,123210000,Tokyo,Japanese,377930.0,JP,https://flagcdn.com/w320/jp.png
+Oman,Sultanate of Oman,Asia,Western Asia,5343630,Muscat,Arabic,309500.0,OM,https://flagcdn.com/w320/om.png
+Belgium,Kingdom of Belgium,Europe,Western Europe,11825551,Brussels,"German, French, Dutch",30528.0,BE,https://flagcdn.com/w320/be.png
+Saint Martin,Saint Martin,Americas,Caribbean,31496,Marigot,French,53.0,MF,https://flagcdn.com/w320/mf.png
+Mayotte,Department of Mayotte,Africa,Eastern Africa,320901,Mamoudzou,French,374.0,YT,https://flagcdn.com/w320/yt.png
+France,French Republic,Europe,Western Europe,66351959,Paris,French,543908.0,FR,https://flagcdn.com/w320/fr.png
+Bulgaria,Republic of Bulgaria,Europe,Southeast Europe,6437360,Sofia,Bulgarian,110879.0,BG,https://flagcdn.com/w320/bg.png
+Cyprus,Republic of Cyprus,Europe,Southern Europe,1442614,Nicosia,"Greek, Turkish",9251.0,CY,https://flagcdn.com/w320/cy.png
+South Korea,Republic of Korea,Asia,Eastern Asia,51159889,Seoul,Korean,100210.0,KR,https://flagcdn.com/w320/kr.png
+Mexico,United Mexican States,Americas,North America,130575786,Mexico City,Spanish,1964375.0,MX,https://flagcdn.com/w320/mx.png
+North Macedonia,Republic of North Macedonia,Europe,Southeast Europe,1822612,Skopje,Macedonian,25713.0,MK,https://flagcdn.com/w320/mk.png
+Guyana,Co-operative Republic of Guyana,Americas,South America,772975,Georgetown,English,214969.0,GY,https://flagcdn.com/w320/gy.png
+Kosovo,Republic of Kosovo,Europe,Southeast Europe,1585566,Pristina,"Albanian, Serbian",10908.0,XK,https://flagcdn.com/w320/xk.png
+Morocco,Kingdom of Morocco,Africa,Northern Africa,36828330,Rabat,"Arabic, Berber",446550.0,MA,https://flagcdn.com/w320/ma.png
+Gibraltar,Gibraltar,Europe,Southern Europe,38000,Gibraltar,English,6.0,GI,https://flagcdn.com/w320/gi.png
+Western Sahara,Sahrawi Arab Democratic Republic,Africa,Northern Africa,600904,El Aaiún,"Berber, Hassaniya, Spanish",266000.0,EH,https://flagcdn.com/w320/eh.png
+Andorra,Principality of Andorra,Europe,Southern Europe,88406,Andorra la Vella,Catalan,468.0,AD,https://flagcdn.com/w320/ad.png
+Palau,Republic of Palau,Oceania,Micronesia,16733,Ngerulmud,"English, Palauan",459.0,PW,https://flagcdn.com/w320/pw.png
+Guinea,Republic of Guinea,Africa,Western Africa,14363931,Conakry,French,245857.0,GN,https://flagcdn.com/w320/gn.png
+Turks and Caicos Islands,Turks and Caicos Islands,Americas,Caribbean,50828,Cockburn Town,English,948.0,TC,https://flagcdn.com/w320/tc.png
+Saudi Arabia,Kingdom of Saudi Arabia,Asia,Western Asia,35300280,Riyadh,Arabic,2149690.0,SA,https://flagcdn.com/w320/sa.png
+Botswana,Republic of Botswana,Africa,Southern Africa,2359609,Gaborone,"English, Tswana",582000.0,BW,https://flagcdn.com/w320/bw.png
+Comoros,Union of the Comoros,Africa,Eastern Africa,919901,Moroni,"Arabic, French, Comorian",1862.0,KM,https://flagcdn.com/w320/km.png
+Belize,Belize,Americas,Central America,417634,Belmopan,"Belizean Creole, English, Spanish",22966.0,BZ,https://flagcdn.com/w320/bz.png
+Cambodia,Kingdom of Cambodia,Asia,South-Eastern Asia,17577760,Phnom Penh,Khmer,181035.0,KH,https://flagcdn.com/w320/kh.png
+Saint Lucia,Saint Lucia,Americas,Caribbean,184100,Castries,English,616.0,LC,https://flagcdn.com/w320/lc.png
+Mauritania,Islamic Republic of Mauritania,Africa,Western Africa,4927532,Nouakchott,Arabic,1030700.0,MR,https://flagcdn.com/w320/mr.png
+Jamaica,Jamaica,Americas,Caribbean,2825544,Kingston,"English, Jamaican Patois",10991.0,JM,https://flagcdn.com/w320/jm.png
+Cape Verde,Republic of Cabo Verde,Africa,Western Africa,491233,Praia,Portuguese,4033.0,CV,https://flagcdn.com/w320/cv.png
+Marshall Islands,Republic of the Marshall Islands,Oceania,Micronesia,42418,Majuro,"English, Marshallese",181.0,MH,https://flagcdn.com/w320/mh.png
+Namibia,Republic of Namibia,Africa,Southern Africa,3022401,Windhoek,"Afrikaans, German, English, Herero, Khoekhoe, Kwangali, Lozi, Ndonga, Tswana",825615.0,NA,https://flagcdn.com/w320/na.png
+Iran,Islamic Republic of Iran,Asia,Southern Asia,85961000,Tehran,Persian (Farsi),1648195.0,IR,https://flagcdn.com/w320/ir.png
+Wallis and Futuna,Territory of the Wallis and Futuna Islands,Oceania,Polynesia,11620,Mata-Utu,French,142.0,WF,https://flagcdn.com/w320/wf.png
+Azerbaijan,Republic of Azerbaijan,Asia,Western Asia,10241722,Baku,Azerbaijani,86600.0,AZ,https://flagcdn.com/w320/az.png
+Niger,Republic of Niger,Africa,Western Africa,26312034,Niamey,French,1267000.0,NE,https://flagcdn.com/w320/ne.png
+Heard Island and McDonald Islands,Heard Island and McDonald Islands,Antarctic,,0,,English,412.0,HM,https://flagcdn.com/w320/hm.png
+Laos,Lao People's Democratic Republic,Asia,South-Eastern Asia,7647000,Vientiane,Lao,236800.0,LA,https://flagcdn.com/w320/la.png
+Burkina Faso,Burkina Faso,Africa,Western Africa,24070553,Ouagadougou,French,272967.0,BF,https://flagcdn.com/w320/bf.png
+Cocos (Keeling) Islands,Territory of the Cocos (Keeling) Islands,Oceania,Australia and New Zealand,593,West Island,English,14.0,CC,https://flagcdn.com/w320/cc.png
+Luxembourg,Grand Duchy of Luxembourg,Europe,Western Europe,681973,Luxembourg,"German, French, Luxembourgish",2586.0,LU,https://flagcdn.com/w320/lu.png
+Indonesia,Republic of Indonesia,Asia,South-Eastern Asia,284438782,Jakarta,Indonesian,1904569.0,ID,https://flagcdn.com/w320/id.png
+Lebanon,Lebanese Republic,Asia,Western Asia,5490000,Beirut,"Arabic, French",10452.0,LB,https://flagcdn.com/w320/lb.png
+Turkey,Republic of Turkey,Asia,Western Asia,85664944,Ankara,Turkish,783562.0,TR,https://flagcdn.com/w320/tr.png
+Timor-Leste,Democratic Republic of Timor-Leste,Asia,South-Eastern Asia,1391221,Dili,"Portuguese, Tetum",14874.0,TL,https://flagcdn.com/w320/tl.png
+Zimbabwe,Republic of Zimbabwe,Africa,Southern Africa,17073087,Harare,"Chibarwe, English, Kalanga, Khoisan, Ndau, Northern Ndebele, Chewa, Shona, Sotho, Tonga, Tswana, Tsonga, Venda, Xhosa, Zimbabwean Sign Language",390757.0,ZW,https://flagcdn.com/w320/zw.png
+South Africa,Republic of South Africa,Africa,Southern Africa,63100945,"Pretoria, Bloemfontein, Cape Town","Afrikaans, English, Southern Ndebele, Northern Sotho, Southern Sotho, Swazi, Tswana, Tsonga, Venda, Xhosa, Zulu",1221037.0,ZA,https://flagcdn.com/w320/za.png
+Armenia,Republic of Armenia,Asia,Western Asia,3076200,Yerevan,Armenian,29743.0,AM,https://flagcdn.com/w320/am.png
+Ireland,Republic of Ireland,Europe,Northern Europe,5458600,Dublin,"English, Irish",70273.0,IE,https://flagcdn.com/w320/ie.png
+Norway,Kingdom of Norway,Europe,Northern Europe,5606944,Oslo,"Norwegian Nynorsk, Norwegian Bokmål, Sami",386224.0,NO,https://flagcdn.com/w320/no.png
+Kenya,Republic of Kenya,Africa,Eastern Africa,53330978,Nairobi,"English, Swahili",580367.0,KE,https://flagcdn.com/w320/ke.png
+North Korea,Democratic People's Republic of Korea,Asia,Eastern Asia,25950000,Pyongyang,Korean,120538.0,KP,https://flagcdn.com/w320/kp.png
+Afghanistan,Islamic Republic of Afghanistan,Asia,Southern Asia,43844000,Kabul,"Dari, Pashto, Turkmen",652230.0,AF,https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png
+Bermuda,Bermuda,Americas,North America,64055,Hamilton,English,54.0,BM,https://flagcdn.com/w320/bm.png
+Spain,Kingdom of Spain,Europe,Southern Europe,49315949,Madrid,"Spanish, Catalan, Basque, Galician",505992.0,ES,https://flagcdn.com/w320/es.png
+Netherlands,Kingdom of the Netherlands,Europe,Western Europe,18100436,Amsterdam,Dutch,41865.0,NL,https://flagcdn.com/w320/nl.png
+Nicaragua,Republic of Nicaragua,Americas,Central America,6803886,Managua,Spanish,130373.0,NI,https://flagcdn.com/w320/ni.png
+Lesotho,Kingdom of Lesotho,Africa,Southern Africa,2116427,Maseru,"English, Sotho",30355.0,LS,https://flagcdn.com/w320/ls.png
+Egypt,Arab Republic of Egypt,Africa,Northern Africa,107271260,Cairo,Arabic,1002450.0,EG,https://flagcdn.com/w320/eg.png
+Gambia,Republic of the Gambia,Africa,Western Africa,2422712,Banjul,English,10689.0,GM,https://flagcdn.com/w320/gm.png
+Brazil,Federative Republic of Brazil,Americas,South America,213421037,Brasília,Portuguese,8515767.0,BR,https://flagcdn.com/w320/br.png
+Australia,Commonwealth of Australia,Oceania,Australia and New Zealand,27536874,Canberra,English,7692024.0,AU,https://flagcdn.com/w320/au.png
+Bouvet Island,Bouvet Island,Antarctic,,0,,Norwegian,49.0,BV,https://flagcdn.com/w320/bv.png
+Pitcairn Islands,Pitcairn Group of Islands,Oceania,Polynesia,35,Adamstown,English,47.0,PN,https://flagcdn.com/w320/pn.png
+Barbados,Barbados,Americas,Caribbean,267800,Bridgetown,English,430.0,BB,https://flagcdn.com/w320/bb.png
+Madagascar,Republic of Madagascar,Africa,Eastern Africa,31727042,Antananarivo,"French, Malagasy",587041.0,MG,https://flagcdn.com/w320/mg.png
+United Kingdom,United Kingdom of Great Britain and Northern Ireland,Europe,Northern Europe,69281437,London,English,244376.0,GB,https://flagcdn.com/w320/gb.png
+Portugal,Portuguese Republic,Europe,Southern Europe,10749635,Lisbon,Portuguese,92090.0,PT,https://flagcdn.com/w320/pt.png
+Greenland,Greenland,Americas,North America,56542,Nuuk,Greenlandic,2166086.0,GL,https://flagcdn.com/w320/gl.png
+American Samoa,American Samoa,Oceania,Polynesia,49710,Pago Pago,"English, Samoan",199.0,AS,https://flagcdn.com/w320/as.png
+South Georgia,South Georgia and the South Sandwich Islands,Antarctic,,0,King Edward Point,English,3903.0,GS,https://flagcdn.com/w320/gs.png
+Turkmenistan,Turkmenistan,Asia,Central Asia,7057841,Ashgabat,"Russian, Turkmen",488100.0,TM,https://flagcdn.com/w320/tm.png
+Guadeloupe,Guadeloupe,Americas,Caribbean,378561,Basse-Terre,French,1628.0,GP,https://flagcdn.com/w320/gp.png
+Dominica,Commonwealth of Dominica,Americas,Caribbean,67408,Roseau,English,751.0,DM,https://flagcdn.com/w320/dm.png
+Solomon Islands,Solomon Islands,Oceania,Melanesia,750325,Honiara,English,28896.0,SB,https://flagcdn.com/w320/sb.png
+Saint Pierre and Miquelon,Saint Pierre and Miquelon,Americas,North America,5819,Saint-Pierre,French,242.0,PM,https://flagcdn.com/w320/pm.png
+Rwanda,Republic of Rwanda,Africa,Eastern Africa,14104969,Kigali,"English, French, Kinyarwanda",26338.0,RW,https://flagcdn.com/w320/rw.png
+Norfolk Island,Territory of Norfolk Island,Oceania,Australia and New Zealand,2188,Kingston,"English, Norfuk",36.0,NF,https://flagcdn.com/w320/nf.png
+Panama,Republic of Panama,Americas,Central America,4064780,Panama City,Spanish,75417.0,PA,https://flagcdn.com/w320/pa.png
+Bahamas,Commonwealth of the Bahamas,Americas,Caribbean,398165,Nassau,English,13943.0,BS,https://flagcdn.com/w320/bs.png
+Tokelau,Tokelau,Oceania,Polynesia,2608,Fakaofo,"English, Samoan, Tokelauan",12.0,TK,https://flagcdn.com/w320/tk.png
+Montenegro,Montenegro,Europe,Southeast Europe,623327,Podgorica,Montenegrin,13812.0,ME,https://flagcdn.com/w320/me.png
+Åland Islands,Åland Islands,Europe,Northern Europe,30654,Mariehamn,Swedish,1580.0,AX,https://flagcdn.com/w320/ax.png
+Niue,Niue,Oceania,Polynesia,1681,Alofi,"English, Niuean",260.0,NU,https://flagcdn.com/w320/nu.png
+Argentina,Argentine Republic,Americas,South America,46735004,Buenos Aires,"Guaraní, Spanish",2780400.0,AR,https://flagcdn.com/w320/ar.png
+Cuba,Republic of Cuba,Americas,Caribbean,9748007,Havana,Spanish,109884.0,CU,https://flagcdn.com/w320/cu.png
+Cayman Islands,Cayman Islands,Americas,Caribbean,84738,George Town,English,264.0,KY,https://flagcdn.com/w320/ky.png
+Kazakhstan,Republic of Kazakhstan,Asia,Central Asia,20426568,Astana,"Kazakh, Russian",2724900.0,KZ,https://flagcdn.com/w320/kz.png
+Russia,Russian Federation,Europe,Eastern Europe,146028325,Moscow,Russian,17098246.0,RU,https://flagcdn.com/w320/ru.png
+India,Republic of India,Asia,Southern Asia,1417492000,New Delhi,"English, Hindi, Tamil",3287263.0,IN,https://flagcdn.com/w320/in.png
+British Virgin Islands,Virgin Islands,Americas,Caribbean,39471,Road Town,English,151.0,VG,https://flagcdn.com/w320/vg.png
+Guam,Guam,Oceania,Micronesia,153836,Hagåtña,"Chamorro, English, Spanish",549.0,GU,https://flagcdn.com/w320/gu.png
+Myanmar,Republic of the Union of Myanmar,Asia,South-Eastern Asia,51316756,Naypyidaw,Burmese,676578.0,MM,https://flagcdn.com/w320/mm.png
+DR Congo,Democratic Republic of the Congo,Africa,Middle Africa,112832000,Kinshasa,"French, Kikongo, Lingala, Tshiluba, Swahili",2344858.0,CD,https://flagcdn.com/w320/cd.png
+Mauritius,Republic of Mauritius,Africa,Eastern Africa,1243741,Port Louis,"English, French, Mauritian Creole",2040.0,MU,https://flagcdn.com/w320/mu.png
+Falkland Islands,Falkland Islands,Americas,South America,3662,Stanley,English,12173.0,FK,https://flagcdn.com/w320/fk.png
+Northern Mariana Islands,Commonwealth of the Northern Mariana Islands,Oceania,Micronesia,47329,Saipan,"Carolinian, Chamorro, English",464.0,MP,https://flagcdn.com/w320/mp.png
+Ukraine,Ukraine,Europe,Eastern Europe,32862000,Kyiv,Ukrainian,603550.0,UA,https://flagcdn.com/w320/ua.png
+Monaco,Principality of Monaco,Europe,Western Europe,38423,Monaco,French,2.02,MC,https://flagcdn.com/w320/mc.png
+Tajikistan,Republic of Tajikistan,Asia,Central Asia,10499000,Dushanbe,"Russian, Tajik",143100.0,TJ,https://flagcdn.com/w320/tj.png
+Malaysia,Malaysia,Asia,South-Eastern Asia,34231700,Kuala Lumpur,"English, Malay",330803.0,MY,https://flagcdn.com/w320/my.png
+Somalia,Federal Republic of Somalia,Africa,Eastern Africa,19655000,Mogadishu,"Arabic, Somali",637657.0,SO,https://flagcdn.com/w320/so.png
+Antigua and Barbuda,Antigua and Barbuda,Americas,Caribbean,103603,Saint John's,English,442.0,AG,https://flagcdn.com/w320/ag.png
+Central African Republic,Central African Republic,Africa,Middle Africa,6470307,Bangui,"French, Sango",622984.0,CF,https://flagcdn.com/w320/cf.png
+Macau,Macao Special Administrative Region of the People's Republic of China,Asia,Eastern Asia,685900,,"Portuguese, Chinese",30.0,MO,https://flagcdn.com/w320/mo.png
+Israel,State of Israel,Asia,Western Asia,10134800,Jerusalem,"Arabic, Hebrew",21937.0,IL,https://flagcdn.com/w320/il.png
+Nigeria,Federal Republic of Nigeria,Africa,Western Africa,223800000,Abuja,English,923768.0,NG,https://flagcdn.com/w320/ng.png
+Honduras,Republic of Honduras,Americas,Central America,9892632,Tegucigalpa,Spanish,112492.0,HN,https://flagcdn.com/w320/hn.png
+Sierra Leone,Republic of Sierra Leone,Africa,Western Africa,9077691,Freetown,English,71740.0,SL,https://flagcdn.com/w320/sl.png
+Tunisia,Tunisian Republic,Africa,Northern Africa,11972169,Tunis,Arabic,163610.0,TN,https://flagcdn.com/w320/tn.png
+Lithuania,Republic of Lithuania,Europe,Northern Europe,2894886,Vilnius,Lithuanian,65300.0,LT,https://flagcdn.com/w320/lt.png
+Iraq,Republic of Iraq,Asia,Western Asia,46118793,Baghdad,"Arabic, Aramaic, Sorani",438317.0,IQ,https://flagcdn.com/w320/iq.png
+Switzerland,Swiss Confederation,Europe,Western Europe,9082848,Bern,"French, Swiss German, Italian, Romansh",41284.0,CH,https://flagcdn.com/w320/ch.png
+Chile,Republic of Chile,Americas,South America,20206953,Santiago,Spanish,756102.0,CL,https://flagcdn.com/w320/cl.png
+Taiwan,Republic of China (Taiwan),Asia,Eastern Asia,23317031,Taipei,Chinese,36197.0,TW,https://flagcdn.com/w320/tw.png
+Vietnam,Socialist Republic of Vietnam,Asia,South-Eastern Asia,101343800,Hanoi,Vietnamese,331212.0,VN,https://flagcdn.com/w320/vn.png
+Bangladesh,People's Republic of Bangladesh,Asia,Southern Asia,169828911,Dhaka,Bengali,147570.0,BD,https://flagcdn.com/w320/bd.png
+Vanuatu,Republic of Vanuatu,Oceania,Melanesia,321409,Port Vila,"Bislama, English, French",12189.0,VU,https://flagcdn.com/w320/vu.png
+Pakistan,Islamic Republic of Pakistan,Asia,Southern Asia,241499431,Islamabad,"English, Urdu",796095.0,PK,https://flagcdn.com/w320/pk.png
+Latvia,Republic of Latvia,Europe,Northern Europe,1829000,Riga,Latvian,64559.0,LV,https://flagcdn.com/w320/lv.png
+Malta,Republic of Malta,Europe,Southern Europe,574250,Valletta,"English, Maltese",316.0,MT,https://flagcdn.com/w320/mt.png
+Seychelles,Republic of Seychelles,Africa,Eastern Africa,122729,Victoria,"Seychellois Creole, English, French",452.0,SC,https://flagcdn.com/w320/sc.png
+Montserrat,Montserrat,Americas,Caribbean,4386,Plymouth,English,102.0,MS,https://flagcdn.com/w320/ms.png
+Anguilla,Anguilla,Americas,Caribbean,16010,The Valley,English,91.0,AI,https://flagcdn.com/w320/ai.png
+Greece,Hellenic Republic,Europe,Southern Europe,10400720,Athens,Greek,131990.0,GR,https://flagcdn.com/w320/gr.png
+Czechia,Czech Republic,Europe,Central Europe,10882341,Prague,"Czech, Slovak",78865.0,CZ,https://flagcdn.com/w320/cz.png
+Zambia,Republic of Zambia,Africa,Eastern Africa,19693423,Lusaka,English,752612.0,ZM,https://flagcdn.com/w320/zm.png
+Hong Kong,Hong Kong Special Administrative Region of the People's Republic of China,Asia,Eastern Asia,7527500,City of Victoria,"English, Chinese",1104.0,HK,https://flagcdn.com/w320/hk.png
+United States,United States of America,Americas,North America,340110988,"Washington, D.C.",English,9525067.0,US,https://flagcdn.com/w320/us.png
+Eswatini,Kingdom of Eswatini,Africa,Southern Africa,1235549,Mbabane,"English, Swazi",17364.0,SZ,https://flagcdn.com/w320/sz.png
+Slovenia,Republic of Slovenia,Europe,Central Europe,2130638,Ljubljana,Slovene,20273.0,SI,https://flagcdn.com/w320/si.png
+Caribbean Netherlands,"Bonaire, Sint Eustatius and Saba",Americas,Caribbean,31980,Kralendijk,"English, Dutch, Papiamento",328.0,BQ,https://flagcdn.com/w320/bq.png
+Maldives,Republic of the Maldives,Asia,Southern Asia,515132,Malé,Maldivian,300.0,MV,https://flagcdn.com/w320/mv.png
+Ghana,Republic of Ghana,Africa,Western Africa,33742380,Accra,English,238533.0,GH,https://flagcdn.com/w320/gh.png
+Paraguay,Republic of Paraguay,Americas,South America,6109644,Asunción,"Guaraní, Spanish",406752.0,PY,https://flagcdn.com/w320/py.png
+Mozambique,Republic of Mozambique,Africa,Eastern Africa,34090466,Maputo,Portuguese,801590.0,MZ,https://flagcdn.com/w320/mz.png
+Palestine,State of Palestine,Asia,Western Asia,5483450,"Ramallah, Jerusalem",Arabic,6220.0,PS,https://flagcdn.com/w320/ps.png
+Moldova,Republic of Moldova,Europe,Eastern Europe,2749076,Chișinău,Romanian,33847.0,MD,https://flagcdn.com/w320/md.png
+Liberia,Republic of Liberia,Africa,Western Africa,5248621,Monrovia,English,111369.0,LR,https://flagcdn.com/w320/lr.png
+Liechtenstein,Principality of Liechtenstein,Europe,Western Europe,40900,Vaduz,German,160.0,LI,https://flagcdn.com/w320/li.png
+Peru,Republic of Peru,Americas,South America,34350244,Lima,"Aymara, Quechua, Spanish",1285216.0,PE,https://flagcdn.com/w320/pe.png
+Qatar,State of Qatar,Asia,Western Asia,3173024,Doha,Arabic,11586.0,QA,https://flagcdn.com/w320/qa.png
+Christmas Island,Territory of Christmas Island,Oceania,Australia and New Zealand,1692,Flying Fish Cove,English,135.0,CX,https://flagcdn.com/w320/cx.png
+Georgia,Georgia,Asia,Western Asia,4000921,Tbilisi,Georgian,69700.0,GE,https://flagcdn.com/w320/ge.png
+Ecuador,Republic of Ecuador,Americas,South America,18103660,Quito,Spanish,276841.0,EC,https://flagcdn.com/w320/ec.png
+Philippines,Republic of the Philippines,Asia,South-Eastern Asia,114123600,Manila,"English, Filipino",342353.0,PH,https://flagcdn.com/w320/ph.png
+Ethiopia,Federal Democratic Republic of Ethiopia,Africa,Eastern Africa,111652998,Addis Ababa,Amharic,1104300.0,ET,https://flagcdn.com/w320/et.png
+United States Virgin Islands,Virgin Islands of the United States,Americas,Caribbean,87146,Charlotte Amalie,English,347.0,VI,https://flagcdn.com/w320/vi.png
+Syria,Syrian Arab Republic,Asia,Western Asia,25620000,Damascus,Arabic,185180.0,SY,https://flagcdn.com/w320/sy.png
+Romania,Romania,Europe,Southeast Europe,19036031,Bucharest,Romanian,238391.0,RO,https://flagcdn.com/w320/ro.png
+Guatemala,Republic of Guatemala,Americas,Central America,18079810,Guatemala City,Spanish,108889.0,GT,https://flagcdn.com/w320/gt.png
+Nepal,Federal Democratic Republic of Nepal,Asia,Southern Asia,29911840,Kathmandu,Nepali,147181.0,NP,https://flagcdn.com/w320/np.png
+Réunion,Réunion Island,Africa,Eastern Africa,896175,Saint-Denis,French,2511.0,RE,https://flagcdn.com/w320/re.png
+Benin,Republic of Benin,Africa,Western Africa,13224860,Porto-Novo,French,112622.0,BJ,https://flagcdn.com/w320/bj.png
+Kuwait,State of Kuwait,Asia,Western Asia,4881254,Kuwait City,Arabic,17818.0,KW,https://flagcdn.com/w320/kw.png
+Suriname,Republic of Suriname,Americas,South America,616500,Paramaribo,Dutch,163820.0,SR,https://flagcdn.com/w320/sr.png
+New Caledonia,New Caledonia,Oceania,Melanesia,264596,Nouméa,French,18575.0,NC,https://flagcdn.com/w320/nc.png
+Sudan,Republic of the Sudan,Africa,Northern Africa,51662000,Khartoum,"Arabic, English",1886068.0,SD,https://flagcdn.com/w320/sd.png
+United States Minor Outlying Islands,United States Minor Outlying Islands,Americas,North America,0,Washington DC,English,34.2,UM,https://flagcdn.com/w320/um.png
+Chad,Republic of Chad,Africa,Middle Africa,19340757,N'Djamena,"Arabic, French",1284000.0,TD,https://flagcdn.com/w320/td.png
+Uruguay,Oriental Republic of Uruguay,Americas,South America,3499451,Montevideo,Spanish,181034.0,UY,https://flagcdn.com/w320/uy.png
+Bosnia and Herzegovina,Bosnia and Herzegovina,Europe,Southeast Europe,3422000,Sarajevo,"Bosnian, Croatian, Serbian",51209.0,BA,https://flagcdn.com/w320/ba.png
+Trinidad and Tobago,Republic of Trinidad and Tobago,Americas,Caribbean,1367764,Port of Spain,English,5130.0,TT,https://flagcdn.com/w320/tt.png
+Sweden,Kingdom of Sweden,Europe,Northern Europe,10605098,Stockholm,Swedish,450295.0,SE,https://flagcdn.com/w320/se.png
+Iceland,Iceland,Europe,Northern Europe,391810,Reykjavik,Icelandic,103000.0,IS,https://flagcdn.com/w320/is.png
+Haiti,Republic of Haiti,Americas,Caribbean,11867032,Port-au-Prince,"French, Haitian Creole",27750.0,HT,https://flagcdn.com/w320/ht.png
+Brunei,"Nation of Brunei, Abode of Peace",Asia,South-Eastern Asia,455500,Bandar Seri Begawan,Malay,5765.0,BN,https://flagcdn.com/w320/bn.png
+French Southern and Antarctic Lands,Territory of the French Southern and Antarctic Lands,Antarctic,,400,Port-aux-Français,French,7747.0,TF,https://flagcdn.com/w320/tf.png
+Guernsey,Bailiwick of Guernsey,Europe,Northern Europe,64781,St. Peter Port,"English, French, Guernésiais",78.0,GG,https://flagcdn.com/w320/gg.png
+Croatia,Republic of Croatia,Europe,Southeast Europe,3866233,Zagreb,Croatian,56594.0,HR,https://flagcdn.com/w320/hr.png
+Saint Barthélemy,Collectivity of Saint Barthélemy,Americas,Caribbean,10562,Gustavia,French,21.0,BL,https://flagcdn.com/w320/bl.png
+Mongolia,Mongolia,Asia,Eastern Asia,3544835,Ulan Bator,Mongolian,1564110.0,MN,https://flagcdn.com/w320/mn.png
+Aruba,Aruba,Americas,Caribbean,107566,Oranjestad,"Dutch, Papiamento",180.0,AW,https://flagcdn.com/w320/aw.png
+Republic of the Congo,Republic of the Congo,Africa,Middle Africa,6142180,Brazzaville,"French, Kikongo, Lingala",342000.0,CG,https://flagcdn.com/w320/cg.png
+São Tomé and Príncipe,Democratic Republic of São Tomé and Príncipe,Africa,Middle Africa,209607,São Tomé,Portuguese,964.0,ST,https://flagcdn.com/w320/st.png
+Yemen,Republic of Yemen,Asia,Western Asia,32684503,Sana'a,Arabic,527968.0,YE,https://flagcdn.com/w320/ye.png
+Equatorial Guinea,Republic of Equatorial Guinea,Africa,Middle Africa,1668768,Ciudad de la Paz,"French, Portuguese, Spanish",28051.0,GQ,https://flagcdn.com/w320/gq.png
+Svalbard and Jan Mayen,Svalbard og Jan Mayen,Europe,Northern Europe,2530,Longyearbyen,Norwegian,61399.0,SJ,https://flagcdn.com/w320/sj.png
+Colombia,Republic of Colombia,Americas,South America,53057212,Bogotá,Spanish,1141748.0,CO,https://flagcdn.com/w320/co.png
+Guinea-Bissau,Republic of Guinea-Bissau,Africa,Western Africa,1781308,Bissau,"Portuguese, Upper Guinea Creole",36125.0,GW,https://flagcdn.com/w320/gw.png
+Kiribati,Independent and Sovereign Republic of Kiribati,Oceania,Micronesia,120740,South Tarawa,"English, Gilbertese",811.0,KI,https://flagcdn.com/w320/ki.png
+Germany,Federal Republic of Germany,Europe,Western Europe,83491249,Berlin,German,357114.0,DE,https://flagcdn.com/w320/de.png
+Thailand,Kingdom of Thailand,Asia,South-Eastern Asia,65859640,Bangkok,Thai,513120.0,TH,https://flagcdn.com/w320/th.png
+Isle of Man,Isle of Man,Europe,Northern Europe,84530,Douglas,"English, Manx",572.0,IM,https://flagcdn.com/w320/im.png
+Bhutan,Kingdom of Bhutan,Asia,Southern Asia,784043,Thimphu,Dzongkha,38394.0,BT,https://flagcdn.com/w320/bt.png
+Gabon,Gabonese Republic,Africa,Middle Africa,2469296,Libreville,French,267668.0,GA,https://flagcdn.com/w320/ga.png
+Sint Maarten,Sint Maarten,Americas,Caribbean,41349,Philipsburg,"English, French, Dutch",34.0,SX,https://flagcdn.com/w320/sx.png
+Sri Lanka,Democratic Socialist Republic of Sri Lanka,Asia,Southern Asia,21763170,Sri Jayawardenepura Kotte,"Sinhala, Tamil",65610.0,LK,https://flagcdn.com/w320/lk.png
+Albania,Republic of Albania,Europe,Southeast Europe,2363314,Tirana,Albanian,28748.0,AL,https://flagcdn.com/w320/al.png
+New Zealand,New Zealand,Oceania,Australia and New Zealand,5324700,Wellington,"English, Māori, New Zealand Sign Language",268838.0,NZ,https://flagcdn.com/w320/nz.png
+Algeria,People's Democratic Republic of Algeria,Africa,Northern Africa,47400000,Algiers,Arabic,2381741.0,DZ,https://flagcdn.com/w320/dz.png
+San Marino,Republic of San Marino,Europe,Southern Europe,34132,City of San Marino,Italian,61.0,SM,https://flagcdn.com/w320/sm.png
+Micronesia,Federated States of Micronesia,Oceania,Micronesia,105564,Palikir,English,702.0,FM,https://flagcdn.com/w320/fm.png
+"Saint Helena, Ascension and Tristan da Cunha","Saint Helena, Ascension and Tristan da Cunha",Africa,Western Africa,5651,Jamestown,English,394.0,SH,https://flagcdn.com/w320/sh.png
+Curaçao,Country of Curaçao,Americas,Caribbean,156115,Willemstad,"English, Dutch, Papiamento",444.0,CW,https://flagcdn.com/w320/cw.png
+El Salvador,Republic of El Salvador,Americas,Central America,6029976,San Salvador,Spanish,21041.0,SV,https://flagcdn.com/w320/sv.png
+Martinique,Martinique,Americas,Caribbean,349925,Fort-de-France,French,1128.0,MQ,https://flagcdn.com/w320/mq.png
+Nauru,Republic of Nauru,Oceania,Micronesia,11680,Yaren,"English, Nauru",21.0,NR,https://flagcdn.com/w320/nr.png
+Vatican City,Vatican City State,Europe,Southern Europe,882,Vatican City,"Italian, Latin",0.49,VA,https://flagcdn.com/w320/va.png
+Grenada,Grenada,Americas,Caribbean,109021,St. George's,English,344.0,GD,https://flagcdn.com/w320/gd.png
+Tonga,Kingdom of Tonga,Oceania,Polynesia,100179,Nuku'alofa,"English, Tongan",747.0,TO,https://flagcdn.com/w320/to.png
+Burundi,Republic of Burundi,Africa,Eastern Africa,12332788,Gitega,"French, Kirundi",27834.0,BI,https://flagcdn.com/w320/bi.png
+Samoa,Independent State of Samoa,Oceania,Polynesia,205557,Apia,"English, Samoan",2842.0,WS,https://flagcdn.com/w320/ws.png
+Denmark,Kingdom of Denmark,Europe,Northern Europe,6011488,Copenhagen,Danish,43094.0,DK,https://flagcdn.com/w320/dk.png
+Venezuela,Bolivarian Republic of Venezuela,Americas,South America,28517000,Caracas,Spanish,916445.0,VE,https://flagcdn.com/w320/ve.png
+Austria,Republic of Austria,Europe,Central Europe,9200931,Vienna,German,83871.0,AT,https://flagcdn.com/w320/at.png
+Slovakia,Slovak Republic,Europe,Central Europe,5413813,Bratislava,Slovak,49037.0,SK,https://flagcdn.com/w320/sk.png
+China,People's Republic of China,Asia,Eastern Asia,1408280000,Beijing,Chinese,9706961.0,CN,https://flagcdn.com/w320/cn.png
+British Indian Ocean Territory,British Indian Ocean Territory,Africa,Eastern Africa,0,Diego Garcia,English,60.0,IO,https://flagcdn.com/w320/io.png
+French Polynesia,French Polynesia,Oceania,Polynesia,279500,Papeetē,French,4167.0,PF,https://flagcdn.com/w320/pf.png
+Bolivia,Plurinational State of Bolivia,Americas,South America,11365333,Sucre,"Aymara, Guaraní, Quechua, Spanish",1098581.0,BO,https://flagcdn.com/w320/bo.png
+Antarctica,Antarctica,Antarctic,,1300,,,14000000.0,AQ,https://flagcdn.com/w320/aq.png
+Libya,State of Libya,Africa,Northern Africa,7459000,Tripoli,Arabic,1759540.0,LY,https://flagcdn.com/w320/ly.png
+Estonia,Republic of Estonia,Europe,Northern Europe,1369995,Tallinn,Estonian,45227.0,EE,https://flagcdn.com/w320/ee.png
+Cook Islands,Cook Islands,Oceania,Polynesia,15040,Avarua,"English, Cook Islands Māori",236.0,CK,https://flagcdn.com/w320/ck.png
+Puerto Rico,Commonwealth of Puerto Rico,Americas,Caribbean,3203295,San Juan,"English, Spanish",8870.0,PR,https://flagcdn.com/w320/pr.png
+Belarus,Republic of Belarus,Europe,Eastern Europe,9109280,Minsk,"Belarusian, Russian",207600.0,BY,https://flagcdn.com/w320/by.png
+Faroe Islands,Faroe Islands,Europe,Northern Europe,54885,Tórshavn,"Danish, Faroese",1393.0,FO,https://flagcdn.com/w320/fo.png
+Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,Americas,Caribbean,110872,Kingstown,English,389.0,VC,https://flagcdn.com/w320/vc.png
+Dominican Republic,Dominican Republic,Americas,Caribbean,10771504,Santo Domingo,Spanish,48671.0,DO,https://flagcdn.com/w320/do.png
+Hungary,Hungary,Europe,Central Europe,9539502,Budapest,Hungarian,93028.0,HU,https://flagcdn.com/w320/hu.png
+Bahrain,Kingdom of Bahrain,Asia,Western Asia,1594654,Manama,Arabic,765.0,BH,https://flagcdn.com/w320/bh.png
+Cameroon,Republic of Cameroon,Africa,Middle Africa,29442327,Yaoundé,"English, French",475442.0,CM,https://flagcdn.com/w320/cm.png
+Canada,Canada,Americas,North America,41651653,Ottawa,"English, French",9984670.0,CA,https://flagcdn.com/w320/ca.png
+Eritrea,State of Eritrea,Africa,Eastern Africa,3607000,Asmara,"Arabic, English, Tigrinya",117600.0,ER,https://flagcdn.com/w320/er.png
+Singapore,Republic of Singapore,Asia,South-Eastern Asia,6110200,Singapore,"English, Chinese, Malay, Tamil",710.0,SG,https://flagcdn.com/w320/sg.png
+Costa Rica,Republic of Costa Rica,Americas,Central America,5309625,San José,Spanish,51100.0,CR,https://flagcdn.com/w320/cr.png
+Serbia,Republic of Serbia,Europe,Southeast Europe,6567783,Belgrade,Serbian,77589.0,RS,https://flagcdn.com/w320/rs.png
+Poland,Republic of Poland,Europe,Central Europe,37392000,Warsaw,Polish,312679.0,PL,https://flagcdn.com/w320/pl.png
+Jordan,Hashemite Kingdom of Jordan,Asia,Western Asia,11734000,Amman,Arabic,89342.0,JO,https://flagcdn.com/w320/jo.png
+Ivory Coast,Republic of Côte d'Ivoire,Africa,Western Africa,31719275,Yamoussoukro,French,322463.0,CI,https://flagcdn.com/w320/ci.png
+Italy,Italian Republic,Europe,Southern Europe,58927633,Rome,"Italian, Catalan",301336.0,IT,https://flagcdn.com/w320/it.png
+Kyrgyzstan,Kyrgyz Republic,Asia,Central Asia,7281800,Bishkek,"Kyrgyz, Russian",199951.0,KG,https://flagcdn.com/w320/kg.png
+Papua New Guinea,Independent State of Papua New Guinea,Oceania,Melanesia,11781559,Port Moresby,"English, Hiri Motu, Tok Pisin",462840.0,PG,https://flagcdn.com/w320/pg.png
+Fiji,Republic of Fiji,Oceania,Melanesia,900869,Suva,"English, Fijian, Fiji Hindi",18272.0,FJ,https://flagcdn.com/w320/fj.png
+United Arab Emirates,United Arab Emirates,Asia,Western Asia,11294243,Abu Dhabi,Arabic,83600.0,AE,https://flagcdn.com/w320/ae.png
+Saint Kitts and Nevis,Federation of Saint Christopher and Nevis,Americas,Caribbean,51320,Basseterre,English,261.0,KN,https://flagcdn.com/w320/kn.png
+French Guiana,Guiana,Americas,South America,292354,Cayenne,French,83534.0,GF,https://flagcdn.com/w320/gf.png
+Tanzania,United Republic of Tanzania,Africa,Eastern Africa,68153004,Dodoma,"English, Swahili",947303.0,TZ,https://flagcdn.com/w320/tz.png
+Angola,Republic of Angola,Africa,Middle Africa,36170961,Luanda,Portuguese,1246700.0,AO,https://flagcdn.com/w320/ao.png
+Togo,Togolese Republic,Africa,Western Africa,8095498,Lomé,French,56785.0,TG,https://flagcdn.com/w320/tg.png
+Finland,Republic of Finland,Europe,Northern Europe,5650325,Helsinki,"Finnish, Swedish",338455.0,FI,https://flagcdn.com/w320/fi.png
+Malawi,Republic of Malawi,Africa,Eastern Africa,20734262,Lilongwe,"English, Chewa",118484.0,MW,https://flagcdn.com/w320/mw.png
+Mali,Republic of Mali,Africa,Western Africa,22395489,Bamako,French,1240192.0,ML,https://flagcdn.com/w320/ml.png
+Uzbekistan,Republic of Uzbekistan,Asia,Central Asia,37859698,Tashkent,"Russian, Uzbek",447400.0,UZ,https://flagcdn.com/w320/uz.png
+Senegal,Republic of Senegal,Africa,Western Africa,18593258,Dakar,French,196722.0,SN,https://flagcdn.com/w320/sn.png
+Uganda,Republic of Uganda,Africa,Eastern Africa,45905417,Kampala,"English, Swahili",241550.0,UG,https://flagcdn.com/w320/ug.png
+Djibouti,Republic of Djibouti,Africa,Eastern Africa,1066809,Djibouti,"Arabic, French",23200.0,DJ,https://flagcdn.com/w320/dj.png
+South Sudan,Republic of South Sudan,Africa,Middle Africa,15786898,Juba,English,619745.0,SS,https://flagcdn.com/w320/ss.png
+Jersey,Bailiwick of Jersey,Europe,Northern Europe,103267,Saint Helier,"English, French, Jèrriais",116.0,JE,https://flagcdn.com/w320/je.png
+Tuvalu,Tuvalu,Oceania,Polynesia,10643,Funafuti,"English, Tuvaluan",26.0,TV,https://flagcdn.com/w320/tv.png
+Japan,Japan,Asia,Eastern Asia,123210000,Tokyo,Japanese,377930.0,JP,https://flagcdn.com/w320/jp.png
+Oman,Sultanate of Oman,Asia,Western Asia,5343630,Muscat,Arabic,309500.0,OM,https://flagcdn.com/w320/om.png
+Belgium,Kingdom of Belgium,Europe,Western Europe,11825551,Brussels,"German, French, Dutch",30528.0,BE,https://flagcdn.com/w320/be.png
+Saint Martin,Saint Martin,Americas,Caribbean,31496,Marigot,French,53.0,MF,https://flagcdn.com/w320/mf.png
+Mayotte,Department of Mayotte,Africa,Eastern Africa,320901,Mamoudzou,French,374.0,YT,https://flagcdn.com/w320/yt.png
+France,French Republic,Europe,Western Europe,66351959,Paris,French,543908.0,FR,https://flagcdn.com/w320/fr.png
+Bulgaria,Republic of Bulgaria,Europe,Southeast Europe,6437360,Sofia,Bulgarian,110879.0,BG,https://flagcdn.com/w320/bg.png
+Cyprus,Republic of Cyprus,Europe,Southern Europe,1442614,Nicosia,"Greek, Turkish",9251.0,CY,https://flagcdn.com/w320/cy.png
+South Korea,Republic of Korea,Asia,Eastern Asia,51159889,Seoul,Korean,100210.0,KR,https://flagcdn.com/w320/kr.png
+Mexico,United Mexican States,Americas,North America,130575786,Mexico City,Spanish,1964375.0,MX,https://flagcdn.com/w320/mx.png
+North Macedonia,Republic of North Macedonia,Europe,Southeast Europe,1822612,Skopje,Macedonian,25713.0,MK,https://flagcdn.com/w320/mk.png
+Guyana,Co-operative Republic of Guyana,Americas,South America,772975,Georgetown,English,214969.0,GY,https://flagcdn.com/w320/gy.png
+Kosovo,Republic of Kosovo,Europe,Southeast Europe,1585566,Pristina,"Albanian, Serbian",10908.0,XK,https://flagcdn.com/w320/xk.png
+Morocco,Kingdom of Morocco,Africa,Northern Africa,36828330,Rabat,"Arabic, Berber",446550.0,MA,https://flagcdn.com/w320/ma.png
+Gibraltar,Gibraltar,Europe,Southern Europe,38000,Gibraltar,English,6.0,GI,https://flagcdn.com/w320/gi.png
+Western Sahara,Sahrawi Arab Democratic Republic,Africa,Northern Africa,600904,El Aaiún,"Berber, Hassaniya, Spanish",266000.0,EH,https://flagcdn.com/w320/eh.png
+Andorra,Principality of Andorra,Europe,Southern Europe,88406,Andorra la Vella,Catalan,468.0,AD,https://flagcdn.com/w320/ad.png
+Palau,Republic of Palau,Oceania,Micronesia,16733,Ngerulmud,"English, Palauan",459.0,PW,https://flagcdn.com/w320/pw.png
+Guinea,Republic of Guinea,Africa,Western Africa,14363931,Conakry,French,245857.0,GN,https://flagcdn.com/w320/gn.png
+Turks and Caicos Islands,Turks and Caicos Islands,Americas,Caribbean,50828,Cockburn Town,English,948.0,TC,https://flagcdn.com/w320/tc.png
+Saudi Arabia,Kingdom of Saudi Arabia,Asia,Western Asia,35300280,Riyadh,Arabic,2149690.0,SA,https://flagcdn.com/w320/sa.png
+Botswana,Republic of Botswana,Africa,Southern Africa,2359609,Gaborone,"English, Tswana",582000.0,BW,https://flagcdn.com/w320/bw.png
+Comoros,Union of the Comoros,Africa,Eastern Africa,919901,Moroni,"Arabic, French, Comorian",1862.0,KM,https://flagcdn.com/w320/km.png
+Belize,Belize,Americas,Central America,417634,Belmopan,"Belizean Creole, English, Spanish",22966.0,BZ,https://flagcdn.com/w320/bz.png
+Cambodia,Kingdom of Cambodia,Asia,South-Eastern Asia,17577760,Phnom Penh,Khmer,181035.0,KH,https://flagcdn.com/w320/kh.png
+Saint Lucia,Saint Lucia,Americas,Caribbean,184100,Castries,English,616.0,LC,https://flagcdn.com/w320/lc.png
+Mauritania,Islamic Republic of Mauritania,Africa,Western Africa,4927532,Nouakchott,Arabic,1030700.0,MR,https://flagcdn.com/w320/mr.png
+Jamaica,Jamaica,Americas,Caribbean,2825544,Kingston,"English, Jamaican Patois",10991.0,JM,https://flagcdn.com/w320/jm.png
+Cape Verde,Republic of Cabo Verde,Africa,Western Africa,491233,Praia,Portuguese,4033.0,CV,https://flagcdn.com/w320/cv.png
+Marshall Islands,Republic of the Marshall Islands,Oceania,Micronesia,42418,Majuro,"English, Marshallese",181.0,MH,https://flagcdn.com/w320/mh.png
+Namibia,Republic of Namibia,Africa,Southern Africa,3022401,Windhoek,"Afrikaans, German, English, Herero, Khoekhoe, Kwangali, Lozi, Ndonga, Tswana",825615.0,NA,https://flagcdn.com/w320/na.png
+Iran,Islamic Republic of Iran,Asia,Southern Asia,85961000,Tehran,Persian (Farsi),1648195.0,IR,https://flagcdn.com/w320/ir.png
+Wallis and Futuna,Territory of the Wallis and Futuna Islands,Oceania,Polynesia,11620,Mata-Utu,French,142.0,WF,https://flagcdn.com/w320/wf.png
+Azerbaijan,Republic of Azerbaijan,Asia,Western Asia,10241722,Baku,Azerbaijani,86600.0,AZ,https://flagcdn.com/w320/az.png
+Niger,Republic of Niger,Africa,Western Africa,26312034,Niamey,French,1267000.0,NE,https://flagcdn.com/w320/ne.png
+Heard Island and McDonald Islands,Heard Island and McDonald Islands,Antarctic,,0,,English,412.0,HM,https://flagcdn.com/w320/hm.png
+Laos,Lao People's Democratic Republic,Asia,South-Eastern Asia,7647000,Vientiane,Lao,236800.0,LA,https://flagcdn.com/w320/la.png
+Burkina Faso,Burkina Faso,Africa,Western Africa,24070553,Ouagadougou,French,272967.0,BF,https://flagcdn.com/w320/bf.png
+Cocos (Keeling) Islands,Territory of the Cocos (Keeling) Islands,Oceania,Australia and New Zealand,593,West Island,English,14.0,CC,https://flagcdn.com/w320/cc.png
+Luxembourg,Grand Duchy of Luxembourg,Europe,Western Europe,681973,Luxembourg,"German, French, Luxembourgish",2586.0,LU,https://flagcdn.com/w320/lu.png
+Indonesia,Republic of Indonesia,Asia,South-Eastern Asia,284438782,Jakarta,Indonesian,1904569.0,ID,https://flagcdn.com/w320/id.png
+Lebanon,Lebanese Republic,Asia,Western Asia,5490000,Beirut,"Arabic, French",10452.0,LB,https://flagcdn.com/w320/lb.png
+Turkey,Republic of Turkey,Asia,Western Asia,85664944,Ankara,Turkish,783562.0,TR,https://flagcdn.com/w320/tr.png
+Timor-Leste,Democratic Republic of Timor-Leste,Asia,South-Eastern Asia,1391221,Dili,"Portuguese, Tetum",14874.0,TL,https://flagcdn.com/w320/tl.png
+Zimbabwe,Republic of Zimbabwe,Africa,Southern Africa,17073087,Harare,"Chibarwe, English, Kalanga, Khoisan, Ndau, Northern Ndebele, Chewa, Shona, Sotho, Tonga, Tswana, Tsonga, Venda, Xhosa, Zimbabwean Sign Language",390757.0,ZW,https://flagcdn.com/w320/zw.png
+South Africa,Republic of South Africa,Africa,Southern Africa,63100945,"Pretoria, Bloemfontein, Cape Town","Afrikaans, English, Southern Ndebele, Northern Sotho, Southern Sotho, Swazi, Tswana, Tsonga, Venda, Xhosa, Zulu",1221037.0,ZA,https://flagcdn.com/w320/za.png
+Armenia,Republic of Armenia,Asia,Western Asia,3076200,Yerevan,Armenian,29743.0,AM,https://flagcdn.com/w320/am.png
+Ireland,Republic of Ireland,Europe,Northern Europe,5458600,Dublin,"English, Irish",70273.0,IE,https://flagcdn.com/w320/ie.png
+Norway,Kingdom of Norway,Europe,Northern Europe,5606944,Oslo,"Norwegian Nynorsk, Norwegian Bokmål, Sami",386224.0,NO,https://flagcdn.com/w320/no.png
+Kenya,Republic of Kenya,Africa,Eastern Africa,53330978,Nairobi,"English, Swahili",580367.0,KE,https://flagcdn.com/w320/ke.png
+North Korea,Democratic People's Republic of Korea,Asia,Eastern Asia,25950000,Pyongyang,Korean,120538.0,KP,https://flagcdn.com/w320/kp.png
+Afghanistan,Islamic Republic of Afghanistan,Asia,Southern Asia,43844000,Kabul,"Dari, Pashto, Turkmen",652230.0,AF,https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png
+Bermuda,Bermuda,Americas,North America,64055,Hamilton,English,54.0,BM,https://flagcdn.com/w320/bm.png
+Spain,Kingdom of Spain,Europe,Southern Europe,49315949,Madrid,"Spanish, Catalan, Basque, Galician",505992.0,ES,https://flagcdn.com/w320/es.png
+Netherlands,Kingdom of the Netherlands,Europe,Western Europe,18100436,Amsterdam,Dutch,41865.0,NL,https://flagcdn.com/w320/nl.png
+Nicaragua,Republic of Nicaragua,Americas,Central America,6803886,Managua,Spanish,130373.0,NI,https://flagcdn.com/w320/ni.png
+Lesotho,Kingdom of Lesotho,Africa,Southern Africa,2116427,Maseru,"English, Sotho",30355.0,LS,https://flagcdn.com/w320/ls.png
+Egypt,Arab Republic of Egypt,Africa,Northern Africa,107271260,Cairo,Arabic,1002450.0,EG,https://flagcdn.com/w320/eg.png
+Gambia,Republic of the Gambia,Africa,Western Africa,2422712,Banjul,English,10689.0,GM,https://flagcdn.com/w320/gm.png
+Brazil,Federative Republic of Brazil,Americas,South America,213421037,Brasília,Portuguese,8515767.0,BR,https://flagcdn.com/w320/br.png
+Australia,Commonwealth of Australia,Oceania,Australia and New Zealand,27536874,Canberra,English,7692024.0,AU,https://flagcdn.com/w320/au.png
+Bouvet Island,Bouvet Island,Antarctic,,0,,Norwegian,49.0,BV,https://flagcdn.com/w320/bv.png
+Pitcairn Islands,Pitcairn Group of Islands,Oceania,Polynesia,35,Adamstown,English,47.0,PN,https://flagcdn.com/w320/pn.png
+Barbados,Barbados,Americas,Caribbean,267800,Bridgetown,English,430.0,BB,https://flagcdn.com/w320/bb.png
+Madagascar,Republic of Madagascar,Africa,Eastern Africa,31727042,Antananarivo,"French, Malagasy",587041.0,MG,https://flagcdn.com/w320/mg.png
+United Kingdom,United Kingdom of Great Britain and Northern Ireland,Europe,Northern Europe,69281437,London,English,244376.0,GB,https://flagcdn.com/w320/gb.png
+Portugal,Portuguese Republic,Europe,Southern Europe,10749635,Lisbon,Portuguese,92090.0,PT,https://flagcdn.com/w320/pt.png
+Greenland,Greenland,Americas,North America,56542,Nuuk,Greenlandic,2166086.0,GL,https://flagcdn.com/w320/gl.png
+American Samoa,American Samoa,Oceania,Polynesia,49710,Pago Pago,"English, Samoan",199.0,AS,https://flagcdn.com/w320/as.png
+South Georgia,South Georgia and the South Sandwich Islands,Antarctic,,0,King Edward Point,English,3903.0,GS,https://flagcdn.com/w320/gs.png
+Turkmenistan,Turkmenistan,Asia,Central Asia,7057841,Ashgabat,"Russian, Turkmen",488100.0,TM,https://flagcdn.com/w320/tm.png
+Guadeloupe,Guadeloupe,Americas,Caribbean,378561,Basse-Terre,French,1628.0,GP,https://flagcdn.com/w320/gp.png
+Dominica,Commonwealth of Dominica,Americas,Caribbean,67408,Roseau,English,751.0,DM,https://flagcdn.com/w320/dm.png
+Solomon Islands,Solomon Islands,Oceania,Melanesia,750325,Honiara,English,28896.0,SB,https://flagcdn.com/w320/sb.png
+Saint Pierre and Miquelon,Saint Pierre and Miquelon,Americas,North America,5819,Saint-Pierre,French,242.0,PM,https://flagcdn.com/w320/pm.png
+Rwanda,Republic of Rwanda,Africa,Eastern Africa,14104969,Kigali,"English, French, Kinyarwanda",26338.0,RW,https://flagcdn.com/w320/rw.png
+Norfolk Island,Territory of Norfolk Island,Oceania,Australia and New Zealand,2188,Kingston,"English, Norfuk",36.0,NF,https://flagcdn.com/w320/nf.png
+Panama,Republic of Panama,Americas,Central America,4064780,Panama City,Spanish,75417.0,PA,https://flagcdn.com/w320/pa.png
+Bahamas,Commonwealth of the Bahamas,Americas,Caribbean,398165,Nassau,English,13943.0,BS,https://flagcdn.com/w320/bs.png
+Tokelau,Tokelau,Oceania,Polynesia,2608,Fakaofo,"English, Samoan, Tokelauan",12.0,TK,https://flagcdn.com/w320/tk.png
+Montenegro,Montenegro,Europe,Southeast Europe,623327,Podgorica,Montenegrin,13812.0,ME,https://flagcdn.com/w320/me.png
+Åland Islands,Åland Islands,Europe,Northern Europe,30654,Mariehamn,Swedish,1580.0,AX,https://flagcdn.com/w320/ax.png
+Niue,Niue,Oceania,Polynesia,1681,Alofi,"English, Niuean",260.0,NU,https://flagcdn.com/w320/nu.png
+Argentina,Argentine Republic,Americas,South America,46735004,Buenos Aires,"Guaraní, Spanish",2780400.0,AR,https://flagcdn.com/w320/ar.png
+Cuba,Republic of Cuba,Americas,Caribbean,9748007,Havana,Spanish,109884.0,CU,https://flagcdn.com/w320/cu.png
+Cayman Islands,Cayman Islands,Americas,Caribbean,84738,George Town,English,264.0,KY,https://flagcdn.com/w320/ky.png
+Kazakhstan,Republic of Kazakhstan,Asia,Central Asia,20426568,Astana,"Kazakh, Russian",2724900.0,KZ,https://flagcdn.com/w320/kz.png
+Russia,Russian Federation,Europe,Eastern Europe,146028325,Moscow,Russian,17098246.0,RU,https://flagcdn.com/w320/ru.png
+India,Republic of India,Asia,Southern Asia,1417492000,New Delhi,"English, Hindi, Tamil",3287263.0,IN,https://flagcdn.com/w320/in.png
+British Virgin Islands,Virgin Islands,Americas,Caribbean,39471,Road Town,English,151.0,VG,https://flagcdn.com/w320/vg.png
+Guam,Guam,Oceania,Micronesia,153836,Hagåtña,"Chamorro, English, Spanish",549.0,GU,https://flagcdn.com/w320/gu.png
+Myanmar,Republic of the Union of Myanmar,Asia,South-Eastern Asia,51316756,Naypyidaw,Burmese,676578.0,MM,https://flagcdn.com/w320/mm.png
+DR Congo,Democratic Republic of the Congo,Africa,Middle Africa,112832000,Kinshasa,"French, Kikongo, Lingala, Tshiluba, Swahili",2344858.0,CD,https://flagcdn.com/w320/cd.png
+Mauritius,Republic of Mauritius,Africa,Eastern Africa,1243741,Port Louis,"English, French, Mauritian Creole",2040.0,MU,https://flagcdn.com/w320/mu.png
+Falkland Islands,Falkland Islands,Americas,South America,3662,Stanley,English,12173.0,FK,https://flagcdn.com/w320/fk.png
+Northern Mariana Islands,Commonwealth of the Northern Mariana Islands,Oceania,Micronesia,47329,Saipan,"Carolinian, Chamorro, English",464.0,MP,https://flagcdn.com/w320/mp.png
+Ukraine,Ukraine,Europe,Eastern Europe,32862000,Kyiv,Ukrainian,603550.0,UA,https://flagcdn.com/w320/ua.png
+Monaco,Principality of Monaco,Europe,Western Europe,38423,Monaco,French,2.02,MC,https://flagcdn.com/w320/mc.png
+Tajikistan,Republic of Tajikistan,Asia,Central Asia,10499000,Dushanbe,"Russian, Tajik",143100.0,TJ,https://flagcdn.com/w320/tj.png
+Malaysia,Malaysia,Asia,South-Eastern Asia,34231700,Kuala Lumpur,"English, Malay",330803.0,MY,https://flagcdn.com/w320/my.png
+Somalia,Federal Republic of Somalia,Africa,Eastern Africa,19655000,Mogadishu,"Arabic, Somali",637657.0,SO,https://flagcdn.com/w320/so.png
+Antigua and Barbuda,Antigua and Barbuda,Americas,Caribbean,103603,Saint John's,English,442.0,AG,https://flagcdn.com/w320/ag.png
+Central African Republic,Central African Republic,Africa,Middle Africa,6470307,Bangui,"French, Sango",622984.0,CF,https://flagcdn.com/w320/cf.png
+Macau,Macao Special Administrative Region of the People's Republic of China,Asia,Eastern Asia,685900,,"Portuguese, Chinese",30.0,MO,https://flagcdn.com/w320/mo.png
+Israel,State of Israel,Asia,Western Asia,10134800,Jerusalem,"Arabic, Hebrew",21937.0,IL,https://flagcdn.com/w320/il.png
+Nigeria,Federal Republic of Nigeria,Africa,Western Africa,223800000,Abuja,English,923768.0,NG,https://flagcdn.com/w320/ng.png
+Honduras,Republic of Honduras,Americas,Central America,9892632,Tegucigalpa,Spanish,112492.0,HN,https://flagcdn.com/w320/hn.png
+Sierra Leone,Republic of Sierra Leone,Africa,Western Africa,9077691,Freetown,English,71740.0,SL,https://flagcdn.com/w320/sl.png
+Tunisia,Tunisian Republic,Africa,Northern Africa,11972169,Tunis,Arabic,163610.0,TN,https://flagcdn.com/w320/tn.png
+Lithuania,Republic of Lithuania,Europe,Northern Europe,2894886,Vilnius,Lithuanian,65300.0,LT,https://flagcdn.com/w320/lt.png
+Iraq,Republic of Iraq,Asia,Western Asia,46118793,Baghdad,"Arabic, Aramaic, Sorani",438317.0,IQ,https://flagcdn.com/w320/iq.png
+Switzerland,Swiss Confederation,Europe,Western Europe,9082848,Bern,"French, Swiss German, Italian, Romansh",41284.0,CH,https://flagcdn.com/w320/ch.png
+Chile,Republic of Chile,Americas,South America,20206953,Santiago,Spanish,756102.0,CL,https://flagcdn.com/w320/cl.png
+Taiwan,Republic of China (Taiwan),Asia,Eastern Asia,23317031,Taipei,Chinese,36197.0,TW,https://flagcdn.com/w320/tw.png
+Vietnam,Socialist Republic of Vietnam,Asia,South-Eastern Asia,101343800,Hanoi,Vietnamese,331212.0,VN,https://flagcdn.com/w320/vn.png
+Bangladesh,People's Republic of Bangladesh,Asia,Southern Asia,169828911,Dhaka,Bengali,147570.0,BD,https://flagcdn.com/w320/bd.png
+Vanuatu,Republic of Vanuatu,Oceania,Melanesia,321409,Port Vila,"Bislama, English, French",12189.0,VU,https://flagcdn.com/w320/vu.png
+Pakistan,Islamic Republic of Pakistan,Asia,Southern Asia,241499431,Islamabad,"English, Urdu",796095.0,PK,https://flagcdn.com/w320/pk.png
+Latvia,Republic of Latvia,Europe,Northern Europe,1829000,Riga,Latvian,64559.0,LV,https://flagcdn.com/w320/lv.png
+Malta,Republic of Malta,Europe,Southern Europe,574250,Valletta,"English, Maltese",316.0,MT,https://flagcdn.com/w320/mt.png
+Seychelles,Republic of Seychelles,Africa,Eastern Africa,122729,Victoria,"Seychellois Creole, English, French",452.0,SC,https://flagcdn.com/w320/sc.png
+Montserrat,Montserrat,Americas,Caribbean,4386,Plymouth,English,102.0,MS,https://flagcdn.com/w320/ms.png
+Anguilla,Anguilla,Americas,Caribbean,16010,The Valley,English,91.0,AI,https://flagcdn.com/w320/ai.png
+Greece,Hellenic Republic,Europe,Southern Europe,10400720,Athens,Greek,131990.0,GR,https://flagcdn.com/w320/gr.png
+Czechia,Czech Republic,Europe,Central Europe,10882341,Prague,"Czech, Slovak",78865.0,CZ,https://flagcdn.com/w320/cz.png
+Zambia,Republic of Zambia,Africa,Eastern Africa,19693423,Lusaka,English,752612.0,ZM,https://flagcdn.com/w320/zm.png
+Hong Kong,Hong Kong Special Administrative Region of the People's Republic of China,Asia,Eastern Asia,7527500,City of Victoria,"English, Chinese",1104.0,HK,https://flagcdn.com/w320/hk.png
+United States,United States of America,Americas,North America,340110988,"Washington, D.C.",English,9525067.0,US,https://flagcdn.com/w320/us.png
+Eswatini,Kingdom of Eswatini,Africa,Southern Africa,1235549,Mbabane,"English, Swazi",17364.0,SZ,https://flagcdn.com/w320/sz.png
+Slovenia,Republic of Slovenia,Europe,Central Europe,2130638,Ljubljana,Slovene,20273.0,SI,https://flagcdn.com/w320/si.png
+Caribbean Netherlands,"Bonaire, Sint Eustatius and Saba",Americas,Caribbean,31980,Kralendijk,"English, Dutch, Papiamento",328.0,BQ,https://flagcdn.com/w320/bq.png
+Maldives,Republic of the Maldives,Asia,Southern Asia,515132,Malé,Maldivian,300.0,MV,https://flagcdn.com/w320/mv.png
+Ghana,Republic of Ghana,Africa,Western Africa,33742380,Accra,English,238533.0,GH,https://flagcdn.com/w320/gh.png
+Paraguay,Republic of Paraguay,Americas,South America,6109644,Asunción,"Guaraní, Spanish",406752.0,PY,https://flagcdn.com/w320/py.png
+Mozambique,Republic of Mozambique,Africa,Eastern Africa,34090466,Maputo,Portuguese,801590.0,MZ,https://flagcdn.com/w320/mz.png
+Palestine,State of Palestine,Asia,Western Asia,5483450,"Ramallah, Jerusalem",Arabic,6220.0,PS,https://flagcdn.com/w320/ps.png
+Moldova,Republic of Moldova,Europe,Eastern Europe,2749076,Chișinău,Romanian,33847.0,MD,https://flagcdn.com/w320/md.png
+Liberia,Republic of Liberia,Africa,Western Africa,5248621,Monrovia,English,111369.0,LR,https://flagcdn.com/w320/lr.png
+Liechtenstein,Principality of Liechtenstein,Europe,Western Europe,40900,Vaduz,German,160.0,LI,https://flagcdn.com/w320/li.png
+Peru,Republic of Peru,Americas,South America,34350244,Lima,"Aymara, Quechua, Spanish",1285216.0,PE,https://flagcdn.com/w320/pe.png
+Qatar,State of Qatar,Asia,Western Asia,3173024,Doha,Arabic,11586.0,QA,https://flagcdn.com/w320/qa.png
+Christmas Island,Territory of Christmas Island,Oceania,Australia and New Zealand,1692,Flying Fish Cove,English,135.0,CX,https://flagcdn.com/w320/cx.png
+Georgia,Georgia,Asia,Western Asia,4000921,Tbilisi,Georgian,69700.0,GE,https://flagcdn.com/w320/ge.png
+Ecuador,Republic of Ecuador,Americas,South America,18103660,Quito,Spanish,276841.0,EC,https://flagcdn.com/w320/ec.png
+Philippines,Republic of the Philippines,Asia,South-Eastern Asia,114123600,Manila,"English, Filipino",342353.0,PH,https://flagcdn.com/w320/ph.png
+Ethiopia,Federal Democratic Republic of Ethiopia,Africa,Eastern Africa,111652998,Addis Ababa,Amharic,1104300.0,ET,https://flagcdn.com/w320/et.png
+United States Virgin Islands,Virgin Islands of the United States,Americas,Caribbean,87146,Charlotte Amalie,English,347.0,VI,https://flagcdn.com/w320/vi.png
+Syria,Syrian Arab Republic,Asia,Western Asia,25620000,Damascus,Arabic,185180.0,SY,https://flagcdn.com/w320/sy.png
+Romania,Romania,Europe,Southeast Europe,19036031,Bucharest,Romanian,238391.0,RO,https://flagcdn.com/w320/ro.png
+Guatemala,Republic of Guatemala,Americas,Central America,18079810,Guatemala City,Spanish,108889.0,GT,https://flagcdn.com/w320/gt.png
+Nepal,Federal Democratic Republic of Nepal,Asia,Southern Asia,29911840,Kathmandu,Nepali,147181.0,NP,https://flagcdn.com/w320/np.png
+Réunion,Réunion Island,Africa,Eastern Africa,896175,Saint-Denis,French,2511.0,RE,https://flagcdn.com/w320/re.png
+Benin,Republic of Benin,Africa,Western Africa,13224860,Porto-Novo,French,112622.0,BJ,https://flagcdn.com/w320/bj.png
+Kuwait,State of Kuwait,Asia,Western Asia,4881254,Kuwait City,Arabic,17818.0,KW,https://flagcdn.com/w320/kw.png
+Suriname,Republic of Suriname,Americas,South America,616500,Paramaribo,Dutch,163820.0,SR,https://flagcdn.com/w320/sr.png
+New Caledonia,New Caledonia,Oceania,Melanesia,264596,Nouméa,French,18575.0,NC,https://flagcdn.com/w320/nc.png
+Sudan,Republic of the Sudan,Africa,Northern Africa,51662000,Khartoum,"Arabic, English",1886068.0,SD,https://flagcdn.com/w320/sd.png
+United States Minor Outlying Islands,United States Minor Outlying Islands,Americas,North America,0,Washington DC,English,34.2,UM,https://flagcdn.com/w320/um.png
+Chad,Republic of Chad,Africa,Middle Africa,19340757,N'Djamena,"Arabic, French",1284000.0,TD,https://flagcdn.com/w320/td.png
+Uruguay,Oriental Republic of Uruguay,Americas,South America,3499451,Montevideo,Spanish,181034.0,UY,https://flagcdn.com/w320/uy.png
+Bosnia and Herzegovina,Bosnia and Herzegovina,Europe,Southeast Europe,3422000,Sarajevo,"Bosnian, Croatian, Serbian",51209.0,BA,https://flagcdn.com/w320/ba.png
+Trinidad and Tobago,Republic of Trinidad and Tobago,Americas,Caribbean,1367764,Port of Spain,English,5130.0,TT,https://flagcdn.com/w320/tt.png
+Sweden,Kingdom of Sweden,Europe,Northern Europe,10605098,Stockholm,Swedish,450295.0,SE,https://flagcdn.com/w320/se.png
+Iceland,Iceland,Europe,Northern Europe,391810,Reykjavik,Icelandic,103000.0,IS,https://flagcdn.com/w320/is.png
+Haiti,Republic of Haiti,Americas,Caribbean,11867032,Port-au-Prince,"French, Haitian Creole",27750.0,HT,https://flagcdn.com/w320/ht.png
+Brunei,"Nation of Brunei, Abode of Peace",Asia,South-Eastern Asia,455500,Bandar Seri Begawan,Malay,5765.0,BN,https://flagcdn.com/w320/bn.png
+French Southern and Antarctic Lands,Territory of the French Southern and Antarctic Lands,Antarctic,,400,Port-aux-Français,French,7747.0,TF,https://flagcdn.com/w320/tf.png
+Guernsey,Bailiwick of Guernsey,Europe,Northern Europe,64781,St. Peter Port,"English, French, Guernésiais",78.0,GG,https://flagcdn.com/w320/gg.png
+Croatia,Republic of Croatia,Europe,Southeast Europe,3866233,Zagreb,Croatian,56594.0,HR,https://flagcdn.com/w320/hr.png
+Saint Barthélemy,Collectivity of Saint Barthélemy,Americas,Caribbean,10562,Gustavia,French,21.0,BL,https://flagcdn.com/w320/bl.png
+Mongolia,Mongolia,Asia,Eastern Asia,3544835,Ulan Bator,Mongolian,1564110.0,MN,https://flagcdn.com/w320/mn.png
+Aruba,Aruba,Americas,Caribbean,107566,Oranjestad,"Dutch, Papiamento",180.0,AW,https://flagcdn.com/w320/aw.png
+Republic of the Congo,Republic of the Congo,Africa,Middle Africa,6142180,Brazzaville,"French, Kikongo, Lingala",342000.0,CG,https://flagcdn.com/w320/cg.png
+São Tomé and Príncipe,Democratic Republic of São Tomé and Príncipe,Africa,Middle Africa,209607,São Tomé,Portuguese,964.0,ST,https://flagcdn.com/w320/st.png
+Yemen,Republic of Yemen,Asia,Western Asia,32684503,Sana'a,Arabic,527968.0,YE,https://flagcdn.com/w320/ye.png
+Equatorial Guinea,Republic of Equatorial Guinea,Africa,Middle Africa,1668768,Ciudad de la Paz,"French, Portuguese, Spanish",28051.0,GQ,https://flagcdn.com/w320/gq.png
+Svalbard and Jan Mayen,Svalbard og Jan Mayen,Europe,Northern Europe,2530,Longyearbyen,Norwegian,61399.0,SJ,https://flagcdn.com/w320/sj.png
+Colombia,Republic of Colombia,Americas,South America,53057212,Bogotá,Spanish,1141748.0,CO,https://flagcdn.com/w320/co.png
+Guinea-Bissau,Republic of Guinea-Bissau,Africa,Western Africa,1781308,Bissau,"Portuguese, Upper Guinea Creole",36125.0,GW,https://flagcdn.com/w320/gw.png
+Kiribati,Independent and Sovereign Republic of Kiribati,Oceania,Micronesia,120740,South Tarawa,"English, Gilbertese",811.0,KI,https://flagcdn.com/w320/ki.png
+Germany,Federal Republic of Germany,Europe,Western Europe,83491249,Berlin,German,357114.0,DE,https://flagcdn.com/w320/de.png
+Thailand,Kingdom of Thailand,Asia,South-Eastern Asia,65859640,Bangkok,Thai,513120.0,TH,https://flagcdn.com/w320/th.png
+Isle of Man,Isle of Man,Europe,Northern Europe,84530,Douglas,"English, Manx",572.0,IM,https://flagcdn.com/w320/im.png
+Bhutan,Kingdom of Bhutan,Asia,Southern Asia,784043,Thimphu,Dzongkha,38394.0,BT,https://flagcdn.com/w320/bt.png
+Gabon,Gabonese Republic,Africa,Middle Africa,2469296,Libreville,French,267668.0,GA,https://flagcdn.com/w320/ga.png
+Sint Maarten,Sint Maarten,Americas,Caribbean,41349,Philipsburg,"English, French, Dutch",34.0,SX,https://flagcdn.com/w320/sx.png
+Sri Lanka,Democratic Socialist Republic of Sri Lanka,Asia,Southern Asia,21763170,Sri Jayawardenepura Kotte,"Sinhala, Tamil",65610.0,LK,https://flagcdn.com/w320/lk.png
+Albania,Republic of Albania,Europe,Southeast Europe,2363314,Tirana,Albanian,28748.0,AL,https://flagcdn.com/w320/al.png
+New Zealand,New Zealand,Oceania,Australia and New Zealand,5324700,Wellington,"English, Māori, New Zealand Sign Language",268838.0,NZ,https://flagcdn.com/w320/nz.png
+Algeria,People's Democratic Republic of Algeria,Africa,Northern Africa,47400000,Algiers,Arabic,2381741.0,DZ,https://flagcdn.com/w320/dz.png
+San Marino,Republic of San Marino,Europe,Southern Europe,34132,City of San Marino,Italian,61.0,SM,https://flagcdn.com/w320/sm.png
+Micronesia,Federated States of Micronesia,Oceania,Micronesia,105564,Palikir,English,702.0,FM,https://flagcdn.com/w320/fm.png
+"Saint Helena, Ascension and Tristan da Cunha","Saint Helena, Ascension and Tristan da Cunha",Africa,Western Africa,5651,Jamestown,English,394.0,SH,https://flagcdn.com/w320/sh.png
+Curaçao,Country of Curaçao,Americas,Caribbean,156115,Willemstad,"English, Dutch, Papiamento",444.0,CW,https://flagcdn.com/w320/cw.png
+El Salvador,Republic of El Salvador,Americas,Central America,6029976,San Salvador,Spanish,21041.0,SV,https://flagcdn.com/w320/sv.png
+Martinique,Martinique,Americas,Caribbean,349925,Fort-de-France,French,1128.0,MQ,https://flagcdn.com/w320/mq.png
+Nauru,Republic of Nauru,Oceania,Micronesia,11680,Yaren,"English, Nauru",21.0,NR,https://flagcdn.com/w320/nr.png
+Vatican City,Vatican City State,Europe,Southern Europe,882,Vatican City,"Italian, Latin",0.49,VA,https://flagcdn.com/w320/va.png
+Grenada,Grenada,Americas,Caribbean,109021,St. George's,English,344.0,GD,https://flagcdn.com/w320/gd.png
+Tonga,Kingdom of Tonga,Oceania,Polynesia,100179,Nuku'alofa,"English, Tongan",747.0,TO,https://flagcdn.com/w320/to.png
+Burundi,Republic of Burundi,Africa,Eastern Africa,12332788,Gitega,"French, Kirundi",27834.0,BI,https://flagcdn.com/w320/bi.png
+Samoa,Independent State of Samoa,Oceania,Polynesia,205557,Apia,"English, Samoan",2842.0,WS,https://flagcdn.com/w320/ws.png
+Denmark,Kingdom of Denmark,Europe,Northern Europe,6011488,Copenhagen,Danish,43094.0,DK,https://flagcdn.com/w320/dk.png
+Venezuela,Bolivarian Republic of Venezuela,Americas,South America,28517000,Caracas,Spanish,916445.0,VE,https://flagcdn.com/w320/ve.png
+Austria,Republic of Austria,Europe,Central Europe,9200931,Vienna,German,83871.0,AT,https://flagcdn.com/w320/at.png
+Slovakia,Slovak Republic,Europe,Central Europe,5413813,Bratislava,Slovak,49037.0,SK,https://flagcdn.com/w320/sk.png
+China,People's Republic of China,Asia,Eastern Asia,1408280000,Beijing,Chinese,9706961.0,CN,https://flagcdn.com/w320/cn.png
+British Indian Ocean Territory,British Indian Ocean Territory,Africa,Eastern Africa,0,Diego Garcia,English,60.0,IO,https://flagcdn.com/w320/io.png
+French Polynesia,French Polynesia,Oceania,Polynesia,279500,Papeetē,French,4167.0,PF,https://flagcdn.com/w320/pf.png
+Bolivia,Plurinational State of Bolivia,Americas,South America,11365333,Sucre,"Aymara, Guaraní, Quechua, Spanish",1098581.0,BO,https://flagcdn.com/w320/bo.png
+Antarctica,Antarctica,Antarctic,,1300,,,14000000.0,AQ,https://flagcdn.com/w320/aq.png
+Libya,State of Libya,Africa,Northern Africa,7459000,Tripoli,Arabic,1759540.0,LY,https://flagcdn.com/w320/ly.png
+Estonia,Republic of Estonia,Europe,Northern Europe,1369995,Tallinn,Estonian,45227.0,EE,https://flagcdn.com/w320/ee.png
+Cook Islands,Cook Islands,Oceania,Polynesia,15040,Avarua,"English, Cook Islands Māori",236.0,CK,https://flagcdn.com/w320/ck.png
+Puerto Rico,Commonwealth of Puerto Rico,Americas,Caribbean,3203295,San Juan,"English, Spanish",8870.0,PR,https://flagcdn.com/w320/pr.png
+Belarus,Republic of Belarus,Europe,Eastern Europe,9109280,Minsk,"Belarusian, Russian",207600.0,BY,https://flagcdn.com/w320/by.png
+Faroe Islands,Faroe Islands,Europe,Northern Europe,54885,Tórshavn,"Danish, Faroese",1393.0,FO,https://flagcdn.com/w320/fo.png
+Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,Americas,Caribbean,110872,Kingstown,English,389.0,VC,https://flagcdn.com/w320/vc.png
+Dominican Republic,Dominican Republic,Americas,Caribbean,10771504,Santo Domingo,Spanish,48671.0,DO,https://flagcdn.com/w320/do.png
+Hungary,Hungary,Europe,Central Europe,9539502,Budapest,Hungarian,93028.0,HU,https://flagcdn.com/w320/hu.png
+Bahrain,Kingdom of Bahrain,Asia,Western Asia,1594654,Manama,Arabic,765.0,BH,https://flagcdn.com/w320/bh.png
+Cameroon,Republic of Cameroon,Africa,Middle Africa,29442327,Yaoundé,"English, French",475442.0,CM,https://flagcdn.com/w320/cm.png
+Canada,Canada,Americas,North America,41651653,Ottawa,"English, French",9984670.0,CA,https://flagcdn.com/w320/ca.png
+Eritrea,State of Eritrea,Africa,Eastern Africa,3607000,Asmara,"Arabic, English, Tigrinya",117600.0,ER,https://flagcdn.com/w320/er.png
+Singapore,Republic of Singapore,Asia,South-Eastern Asia,6110200,Singapore,"English, Chinese, Malay, Tamil",710.0,SG,https://flagcdn.com/w320/sg.png
+Costa Rica,Republic of Costa Rica,Americas,Central America,5309625,San José,Spanish,51100.0,CR,https://flagcdn.com/w320/cr.png
+Serbia,Republic of Serbia,Europe,Southeast Europe,6567783,Belgrade,Serbian,77589.0,RS,https://flagcdn.com/w320/rs.png
+Poland,Republic of Poland,Europe,Central Europe,37392000,Warsaw,Polish,312679.0,PL,https://flagcdn.com/w320/pl.png
+Jordan,Hashemite Kingdom of Jordan,Asia,Western Asia,11734000,Amman,Arabic,89342.0,JO,https://flagcdn.com/w320/jo.png

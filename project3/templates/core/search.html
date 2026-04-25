@@ -1,0 +1,15 @@
+<h2>Search Results</h2>
+{% if query %}
+    <p>Showing results for: <strong>{{ query }}</strong></p>
+{% endif %}
+
+
+{% if results %}
+    <ul>
+        {% for country in results %}
+            <li>{{ country.name }} ({{ country.cca2}})</li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No results were found, try again.</p>
+{% endif %}

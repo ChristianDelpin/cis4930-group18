@@ -7,11 +7,11 @@ from collections import defaultdict
 from helper_functions import log, log_error, save_as_sqlite
 
 # Raw DB
-db_country_raw = "../data/raw/countries.db"
+db_country_raw = "project2/data/raw/countries.db"
 
 # Processed DB
-db_currency_processed = "../data/processed/currencies.db"
-db_country_processed = "../data/processed/countries.db"
+db_currency_processed = "project2/data/processed/currencies.db"
+db_country_processed = "project2/data/processed/countries.db"
 
 # Tables
 table_country_currencies = "countries_by_currency"
@@ -104,6 +104,24 @@ def add_currency_to_countries():
     # Insert data
     for cca2, currencies in country_to_currencies.items():
         cursor.execute(f"INSERT INTO {table_country_currencies} (cca2, currencies) VALUES (?, ?)", (cca2, json.dumps(currencies)))
+
+    # creating a junction table
+    cursor.execute("DROP TABLE IF EXISTS country_currency_junction")
+    cursor.execute("""
+        CREATE TABLE country_currency_junction (
+            cca2          TEXT NOT NULL,
+            currency_code TEXT NOT NULL,
+            PRIMARY KEY (cca2, currency_code),
+            FOREIGN KEY (currency_code) REFERENCES currency_list(code)
+        )
+    """)
+    pairs = [
+        (cca2, code)
+        for cca2, currencies in country_to_currencies.items()
+        for code in currencies
+    ]
+    cursor.executemany("INSERT INTO country_currency_junction (cca2, currency_code) VALUES (?, ?)", pairs)
+
 
     conn.commit()
     conn.close()

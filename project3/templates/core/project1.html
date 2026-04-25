@@ -1,0 +1,18 @@
+
+{% extends "core/base.html" %}
+
+{% block content %}
+    <h1>Project 1</h1>
+    <p>List of figures:</p>
+    <ul>
+        <li>Figure 1</li>
+        <img src="/project1/figures/avocado_sales_by_week.svg" alt="Avocado Sales by Week">
+        <li>Figure 2</li>
+        <img src="/project1/figures/bar_plot.png" alt="Bar Plot">
+        <li>Figure 3</li>
+        <img src="/project1/figures/correlation.png" alt="Correlation Plot">
+
+    </ul>
+{% endblock %}
+
+{% block title %} Project 1 {% endblock %} <!-- this is the title that will appear in the browser tab -->
